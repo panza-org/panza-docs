@@ -5,6 +5,11 @@
   "hexo": {
     "version": "3.2.2"
   },
+  "scripts": {
+    "generate-doc-json": "react-docgen ./code/src/**/* --resolver findAllComponentDefinitions -o ./docs.json --pretty",
+    "generate-doc-markdown": "node scripts2/generate-docs.js",
+    "generate-docs": "npm run generate-doc-json && npm run generate-doc-markdown"
+  },
   "dependencies": {
     "hexo": "^3.2.0",
     "hexo-generator-archive": "^0.1.4",
@@ -15,5 +20,8 @@
     "hexo-renderer-less": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "react-docgen": "^2.10.0"
   }
 }

@@ -1,3 +1,7 @@
+[submodule "code"]
+	path = code
+	url = https://github.com/bmcmahen/panza
+	branch = docs
 [submodule "themes/meteor"]
 	path = themes/meteor
 	url = https://github.com/meteor/hexo-theme-meteor
