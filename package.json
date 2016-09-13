@@ -10,7 +10,7 @@
     "generate-doc-markdown": "node lib/generate-docs.js",
     "generate-docs": "npm run generate-doc-json && npm run generate-doc-markdown",
     "clean": "hexo clean",
-    "serve": "hexo serve",
+    "start": "hexo serve",
     "generate": "hexo generate",
     "deploy": "hexo deploy"
   },
