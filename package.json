@@ -7,11 +7,16 @@
   },
   "scripts": {
     "generate-doc-json": "react-docgen ./code/src/**/* --resolver findAllComponentDefinitions -o ./docs.json --pretty",
-    "generate-doc-markdown": "node scripts2/generate-docs.js",
-    "generate-docs": "npm run generate-doc-json && npm run generate-doc-markdown"
+    "generate-doc-markdown": "node lib/generate-docs.js",
+    "generate-docs": "npm run generate-doc-json && npm run generate-doc-markdown",
+    "clean": "hexo clean",
+    "serve": "hexo serve",
+    "generate": "hexo generate",
+    "deploy": "hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.2.0",
+    "hexo-deployer-git": "^0.2.0",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-category": "^0.1.3",
     "hexo-generator-index": "^0.2.0",

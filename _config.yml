@@ -4,7 +4,7 @@
 
 # Site
 title: Panza Docs
-subtitle:
+subtitle: Documentation
 description:
 author: Hammad Jutt
 language:
@@ -17,9 +17,6 @@ sidebar_categories:
     - index
   'Component API':
     - elements
-    - fragments
-    - devtools
-    - how-it-works
 
 logo:
   nav_mobile: logo/logo-text.svg
@@ -33,15 +30,15 @@ github_repo: panza-org/panza-docs
 content_root: source
 
 nav_links:
-  'Home':
-    url: http://panza.js.org
+#  'Home':
+#    url: http://panza.js.org
   'Docs':
-    url: http://panza.js.org/docs
+    url: http://panza.js.org
     active: true
-  'Showcase':
-    url: http://panza.js.org/showcase
+#  'Showcase':
+#    url: http://panza.js.org/showcase
   'Github':
-    url: https://github.com/bmcmahen/panza
+    url: https://github.com/panza-org/panza
     target: _new
 
 social_links:
@@ -53,8 +50,8 @@ prism_plugin:
   theme: 'default'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://panza.js.org/docs
-root: /docs/
+url: http://panza.js.org/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -109,4 +106,6 @@ theme: meteor
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: 'https://github.com/panza-org/panza-docs'
+  branch: 'gh-pages'
