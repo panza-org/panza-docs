@@ -8,5 +8,5 @@ git submodule update
 cd code && npm install
 cd ..
 npm install
-npm serve
+npm start
 ```
