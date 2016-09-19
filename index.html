@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Basic -->
+    <title>Getting Started | Panza Docs</title>
+    <meta name="description" content="Panza is a stateless UI library for React Native">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="logo/favicon.png" sizes="16x16 32x32 64x64">
+
+    <!-- Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://panza.js.org">
+    <meta property="og:title" content="Getting Started | Panza Docs">
+    <meta property="og:description" content="Panza is a stateless UI library for React Native">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_image_large">
+    <meta name="twitter:site" content="@panza">
+    <meta name="twitter:title" content="Getting Started | Panza Docs">
+    <meta name="twitter:description" content="Panza is a stateless UI library for React Native">
+    <meta name="twitter:image" content="">
+
+    <!-- Misc -->
+    <meta name="google-site-verification" content="" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body class="">
+    
+
+<div class="nav dark">
+  <div class="nav-group">
+    <div class="nav-item">
+      <span class="js-sidebar-toggle show-mobile">
+        <span class="icon-menu"></span>
+      </span>
+      <a class="logo show-desktop" href="http://panza.js.org" title="Panza Docs" target=_new >
+        <img src="logo/logo-text.svg" alt="Panza Docs"/>
+        <span>Documentation</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="center-wrapper show-mobile">
+    <img src="logo/logo-text.svg" alt="Panza Docs"/>
+    <div>Documentation</div>
+  </div>
+
+  <div class="nav-group right">
+    
+    
+      <div class="nav-item show-desktop active">
+        <a class="link" href="http://panza.js.org"  >
+          <span>Docs</span>
+        </a>
+      </div>
+    
+      <div class="nav-item show-desktop ">
+        <a class="link" href="https://github.com/panza-org/panza" target=_new >
+          <span>Github</span>
+        </a>
+      </div>
+    
+  </div>
+
+  
+
+</div>
+
+<div class="sidebar">
+  <div class="panel">
+    <div class="panel-item">
+      <a class="" href="http://panza.js.org" title="Panza Docs" target=_new >
+        <span>Panza Docs</span>
+      </a>
+    </div>
+    
+      <div class="panel-item active"">
+        <a class="" href="http://panza.js.org"  >
+          <span>Docs</span>
+        </a>
+      </div>
+    
+      <div class="panel-item "">
+        <a class="" href="https://github.com/panza-org/panza" target=_new >
+          <span>Github</span>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="sidebar-content">
+    <div class="topcap">
+      <span class="title-sidebar">Panza Docs</span>
+      
+    </div>
+
+    
+
+    <ul class="toc">
+      
+        <li>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc  current">
+                <a href="" class="sidebar-link  current">
+                  <span>Getting Started</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+        <li>
+          
+            <div class="heading-toc">Component API</div>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc ">
+                <a href="elements/Base.html" class="sidebar-link ">
+                  <span>Base</span>
+                </a>
+              </li>
+            
+              
+              <li class="item-toc ">
+                <a href="elements/Button.html" class="sidebar-link ">
+                  <span>Button</span>
+                </a>
+              </li>
+            
+              
+              <li class="item-toc ">
+                <a href="elements/TextBase.html" class="sidebar-link ">
+                  <span>TextBase</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+  <div class="content-wrapper">
+    <div class="header-content">
+      <h1 class="title-page">Getting Started</h1>
+      
+        <div class="subtitle-page">Panza is a stateless UI library for React Native</div>
+      
+
+      <div class="page-actions">
+        <div class="actions-group">
+          <a class="btn primary small round lowercase" href="https://github.com/panza-org/panza-docs/tree/master/source/index.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="document-formatting">
+      <p>Panza is a UI foundation for <a href="https://github.com/facebook/react-native" target="_blank" rel="external">react-native</a> (on iOS and Android) with experimental support for <a href="https://github.com/necolas/react-native-web" target="_blank" rel="external">react-native-web</a>. It’s inspired by the excellent <a href="https://github.com/jxnblk/rebass" target="_blank" rel="external">rebass</a> library. Essentially, it’s the <a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a> of react-native.</p>
+<p>Panza gives you:</p>
+<ul>
+<li>The standard building blocks of most mobile applications.</li>
+<li>Beautiful UI-styles out of the box, suitable for iOS, Android, and the web.</li>
+<li>A method for <a href="themes.html">theming</a> your application.</li>
+<li>A <a href="components.html#Base">Base</a> and <a href="components.html#Text">Text</a> component, which provide useful shorthand <a href="components.html#Base">prop to style conversions</a>. For example, use <code>p={2}</code> to provide padding, or <code>backgroundColor=&#39;primary&#39;</code> to provide a background colour. Most UI-components compose <code>Base</code>, and thus accept these props.</li>
+</ul>
+<p>So instead of doing this:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">const</span> styles = StyleSheets.create(&#123;</div><div class="line">  button: &#123;</div><div class="line">    backgroundColor: <span class="string">'transparent'</span>,</div><div class="line">    borderRadius: <span class="number">5</span>,</div><div class="line">    borderWidth: <span class="number">1</span>,</div><div class="line">    borderColor: <span class="string">'#F62459'</span>,</div><div class="line">    paddingVertical: <span class="number">4</span>,</div><div class="line">    paddingHorizontal: <span class="number">8</span></div><div class="line">  &#125;</div><div class="line">&#125;);</div><div class="line"> </div><div class="line">&lt;TouchableOpacity style=&#123;styles.button&#125;&gt;</div><div class="line">  &lt;Text style=&#123;&#123; color: '#F62459', fontSize: 15 &#125;&#125;&gt;Press me!&lt;/Text&gt;</div><div class="line">&lt;/TouchableOpacity&gt;</div></pre></td></tr></table></figure>
+<p>You can do this:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;Button primary&gt;</div><div class="line">  Press me!</div><div class="line">&lt;/Button&gt;</div></pre></td></tr></table></figure>
+<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><p>Install using NPM.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">npm i panza --save</div><div class="line">npm i react-native-vector-icons --save</div><div class="line">rnpm link react-native-vector-icons</div></pre></td></tr></table></figure>
+<p>And import your components.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> &#123; Base, Button, Text &#125; <span class="keyword">from</span> <span class="string">'panza'</span></div><div class="line"></div><div class="line"><span class="keyword">const</span> Hello = (&#123; onPress &#125;) =&gt; (</div><div class="line">  &lt;Base flex=&#123;1&#125; backgroundColor='light'&gt;</div><div class="line">    &lt;Text large color='positive'&gt;I am text&lt;/Text&gt;</div><div class="line">    &lt;Button</div><div class="line">      primary</div><div class="line">      outline</div><div class="line">      onPress=&#123;onPress&#125;&gt;</div><div class="line">        I am a button</div><div class="line">    &lt;/Button&gt;</div><div class="line">  &lt;/Base&gt;</div><div class="line">)</div></pre></td></tr></table></figure>
+<h2 id="Themes"><a href="#Themes" class="headerlink" title="Themes"></a>Themes</h2><p>You can override parts of the global theme to provide custom colours, font sizes, scales, etc. Use the <a href="docs/themes.md">customizeTheme</a> function provided by Panza to supply a custom theme before registering your application. Check out the <a href="components/panza/config.js">default config</a> to see which variables you can override.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> &#123; customizeTheme &#125; <span class="keyword">from</span> <span class="string">'panza'</span></div><div class="line"></div><div class="line">customizeTheme(&#123;</div><div class="line">  colors: &#123;</div><div class="line">    primary: <span class="string">'#08e'</span></div><div class="line">  &#125;</div><div class="line">&#125;)</div><div class="line"></div><div class="line"><span class="comment">// mount your application</span></div></pre></td></tr></table></figure>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><ul>
+<li><a href="https://github.com/bmcmahen/panza-ui-explorer" target="_blank" rel="external">UIExplorer</a></li>
+<li>bRandom - Randomize your routine (<a href="https://github.com/bmcmahen/random-routine" target="_blank" rel="external">GitHub</a>, <a href="https://itunes.apple.com/ca/app/brandom-randomize-your-routine/id1135088308?mt=8" target="_blank" rel="external">App Store</a>)</li>
+<li><a href="https://github.com/bmcmahen/roast-buddy" target="_blank" rel="external">Roast Buddy</a></li>
+</ul>
+<p>Built something with Panza? Let us know!</p>
+<h2 id="Contributing"><a href="#Contributing" class="headerlink" title="Contributing"></a>Contributing</h2><p>If you are interested in working on Panza and want to develop it locally within a react-native project, we recommend using <a href="https://github.com/wix/wml" target="_blank" rel="external">wml</a> to directly copy your local <code>panza</code> directory into your <code>node_modules</code> folder inside of your react-native project. This is the best solution until react-native fully support symlinks.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">wml add ~/panza ~/panza-example/node_modules/panza</div><div class="line">wml start</div></pre></td></tr></table></figure>
+<p>To run the tests:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm test</div></pre></td></tr></table></figure></p>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT</p>
+
+    </div>
+  </div>
+
+  <div class="pagination">
+    <div class="content-wrapper">
+      
+      
+      
+        <a class="link primary next"
+          href="elements/Base.html">
+          <span class="subtitle-pagination">Next</span>
+          Base
+          <span class="icon-arrow-right-alt"></span>
+        </a>
+      
+    </div>
+  </div>
+
+  <div class="github">
+    <a class="link tertiary " href="https://github.com/panza-org/panza-docs/tree/master/source/index.md" target="_blank">
+      <span class="icon-github"></span>Edit on GitHub</a>
+  </div>
+
+  
+</div>
+
+    <script src="/script/smooth-scroll.min.js"></script>
+    <script src="/script/main.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+    <script>
+      // nectar ninja
+      (function(){
+        var handle = '@meteorjs';
+        var a = document.createElement('script');
+        var m = document.getElementsByTagName('script')[0];
+        a.async = 1;
+        a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+        m.parentNode.insertBefore(a, m);
+      })();
+
+     
+      
+
+      // search box
+      
+
+      
+    </script>
+  </body>
+</html>
