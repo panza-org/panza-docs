@@ -16,18 +16,7 @@ sidebar_categories:
   null:
     - index
   'Component API':
-    - components/Base
-    - components/Text
-    - components/Buttons
-    - components/Card
-    - components/Icons
-    - components/Image
-    - components/Input
-    - components/Nav
-    - components/Pages
-    - components/Popup
-    - components/Row
-    - components/RowInput
+    - components
 
 logo:
   nav_mobile: /logo/logo-text.svg

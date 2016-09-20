@@ -1,5 +1,5 @@
 ---
-title: Component API
+title: Components
 order: 1
 description: A list of all components provided by Panza and their props
 ---
@@ -14,148 +14,119 @@ A general purpose component that converts props into stylesdefined by our theme.
 **Props**
 
 > `Component` _any_ 
-> Custom Component
- 
+> Custom Component 
 
 
 > `baseStyle` _any_ 
-> The base style will be supplanted by style props, or regular style properties.
- 
+> The base style will be supplanted by style props, or regular style properties. 
 
 
 > `style` _any_ 
-> Regular style attribute
- 
+> Regular style attribute 
 
 
 > `underlayColor` _string_ 
-> Underlay color. Use 'darken' to automatically darken the backgroundColor.
- 
+> Underlay color. Use 'darken' to automatically darken the backgroundColor. 
 
 
 > `m` _enum(0,1,2,3,4)_ 
-> Margin based on the configured scale
- 
+> Margin based on the configured scale 
 
 
 > `mt` _enum(0,1,2,3,4)_ 
-> Margin top based on the configured scale
- 
+> Margin top based on the configured scale 
 
 
 > `mr` _enum(0,1,2,3,4)_ 
-> Margin right based on the configured scale
- 
+> Margin right based on the configured scale 
 
 
 > `mb` _enum(0,1,2,3,4)_ 
-> Margin bottom based on the configured scale
- 
+> Margin bottom based on the configured scale 
 
 
 > `ml` _enum(0,1,2,3,4)_ 
-> Margin left based on the configured scale
- 
+> Margin left based on the configured scale 
 
 
 > `mx` _enum(0,1,2,3,4)_ 
-> Margin x-axis based on the configured scale
- 
+> Margin x-axis based on the configured scale 
 
 
 > `my` _enum(0,1,2,3,4)_ 
-> Margin y-asix based on the configured scale
- 
+> Margin y-asix based on the configured scale 
 
 
 > `p` _enum(0,1,2,3,4)_ 
-> Padding based on the configured scale
- 
+> Padding based on the configured scale 
 
 
 > `pt` _enum(0,1,2,3,4)_ 
-> Padding top based on the configured scale
- 
+> Padding top based on the configured scale 
 
 
 > `pr` _enum(0,1,2,3,4)_ 
-> Padding right based on the configured scale
- 
+> Padding right based on the configured scale 
 
 
 > `pb` _enum(0,1,2,3,4)_ 
-> Padding bottom based on the configured scale
- 
+> Padding bottom based on the configured scale 
 
 
 > `pl` _enum(0,1,2,3,4)_ 
-> Padding left based on the configured scale
- 
+> Padding left based on the configured scale 
 
 
 > `px` _enum(0,1,2,3,4)_ 
-> Padding x-axis based on the configured scale
- 
+> Padding x-axis based on the configured scale 
 
 
 > `py` _enum(0,1,2,3,4)_ 
-> Padding y-axis based on the configured scale
- 
+> Padding y-axis based on the configured scale 
 
 
 > `backgroundColor` _string_ 
-> Background color.
- 
+> Background color. 
 
 
 > `rounded` _union(bool,number)_ 
-> Border radius
- 
+> Border radius 
 
 
 > `borderColor` _string_ 
-> Border color
- 
+> Border color 
 
 
 > `flex` _number_ 
-> Flex property
- 
+> Flex property 
 
 
 > `wrap` _bool_ 
-> Flex-wrap property
- 
+> Flex-wrap property 
 
 
 > `column` _bool_ 
-> Set the flex-direction to column
- 
+> Set the flex-direction to column 
 
 
 > `row` _bool_ 
-> Set the flex-direction to row
- 
+> Set the flex-direction to row 
 
 
 > `align` _string_ 
-> Align-items property
- 
+> Align-items property 
 
 
 > `justify` _string_ 
-> Justify-content property
- 
+> Justify-content property 
 
 
 > `height` _number_ 
-> The height of the element
- 
+> The height of the element 
 
 
 > `width` _number_ 
-> The width of the element
- 
+> The width of the element 
 
 
 
@@ -166,24 +137,17 @@ A general purpose text component whichconverts props into styles defined in the 
 
 **Props**
 
-> `Component` _any_ 
-> 
- 
+> `Component` _any_  
 
 
-> `style` _any_ 
-> 
- 
+> `style` _any_  
 
 
-> `baseStyle` _any_ 
-> 
- 
+> `baseStyle` _any_  
 
 
 > `fontSize` _enum(0,1,2,3,4,5,6)_ 
-> text size *
- 
+> text size * 
 
 
 > `lineHeight` _enum(0,1,2,3,4,5,6)_ 
@@ -197,153 +161,123 @@ A general purpose text component whichconverts props into styles defined in the 
 
 
 > `textAlign` _string_ 
-> text alignment *
- 
+> text alignment * 
 
 
 > `bold` _bool_ 
-> bold font weight *
- 
+> bold font weight * 
 
 
 > `thin` _bool_ 
-> thin font weight *
- 
+> thin font weight * 
 
 
 > `thick` _bool_ 
-> thick font weight *
- 
+> thick font weight * 
 
 
 > `inverted` _bool_ 
-> use the inverted color (by default, white) *
- 
+> use the inverted color (by default, white) * 
 
 
 > `m` _enum(0,1,2,3,4)_ 
-> Margin *
- 
+> Margin * 
 
 
 > `mt` _enum(0,1,2,3,4)_ 
-> Margin top *
- 
+> Margin top * 
 
 
 > `mr` _enum(0,1,2,3,4)_ 
-> Margin right *
- 
+> Margin right * 
 
 
 > `mb` _enum(0,1,2,3,4)_ 
-> Margin bottom *
- 
+> Margin bottom * 
 
 
 > `ml` _enum(0,1,2,3,4)_ 
-> Margin left *
- 
+> Margin left * 
 
 
 > `mx` _enum(0,1,2,3,4)_ 
-> Margin x-axis *
- 
+> Margin x-axis * 
 
 
 > `my` _enum(0,1,2,3,4)_ 
-> Margin y-asix *
- 
+> Margin y-asix * 
 
 
 > `p` _enum(0,1,2,3,4)_ 
-> Padding *
- 
+> Padding * 
 
 
 > `pt` _enum(0,1,2,3,4)_ 
-> Padding top *
- 
+> Padding top * 
 
 
 > `pr` _enum(0,1,2,3,4)_ 
-> Padding right *
- 
+> Padding right * 
 
 
 > `pb` _enum(0,1,2,3,4)_ 
-> Padding bottom *
- 
+> Padding bottom * 
 
 
 > `pl` _enum(0,1,2,3,4)_ 
-> Padding left *
- 
+> Padding left * 
 
 
 > `px` _enum(0,1,2,3,4)_ 
-> Padding x-axis *
- 
+> Padding x-axis * 
 
 
 > `py` _enum(0,1,2,3,4)_ 
-> Padding y-axis *
- 
+> Padding y-axis * 
 
 
 > `backgroundColor` _string_ 
-> Background color *
- 
+> Background color * 
 
 
 > `rounded` _union(bool,number)_ 
-> Border radius *
- 
+> Border radius * 
 
 
 > `borderColor` _string_ 
-> Border color *
- 
+> Border color * 
 
 
 > `flex` _number_ 
-> flex property *
- 
+> flex property * 
 
 
 > `wrap` _bool_ 
-> flex-wrap property *
- 
+> flex-wrap property * 
 
 
 > `column` _bool_ 
-> set flex-direction to column *
- 
+> set flex-direction to column * 
 
 
 > `row` _bool_ 
-> set flex-direction to row *
- 
+> set flex-direction to row * 
 
 
 > `align` _string_ 
-> set align-items property *
- 
+> set align-items property * 
 
 
 > `justify` _string_ 
-> set justify-content property *
- 
+> set justify-content property * 
 
 
 > `height` _number_ 
-> set the height of the element *
- 
+> set the height of the element * 
 
 
 > `width` _number_ 
-> set the width of the element *
- 
+> set the width of the element * 
 
 
 
@@ -359,53 +293,39 @@ A basic button that inherits from Base, and provides colourizationbased upon bac
 **Props**
 
 > `tiny` _bool_ 
-> button size
- 
+> button size 
 
 
-> `small` _bool_ 
-> 
- 
+> `small` _bool_  
 
 
-> `medium` _bool_ 
-> 
- 
+> `medium` _bool_  
 
 
-> `large` _bool_ 
-> 
- 
+> `large` _bool_  
 
 
-> `giant` _bool_ 
-> 
- 
+> `giant` _bool_  
 
 
 > `primary` _bool_ 
-> Uses the primary colour to style the button.
- 
+> Uses the primary colour to style the button. 
 
 
 > `secondary` _bool_ 
-> Uses the secondary colour to style the button.
- 
+> Uses the secondary colour to style the button. 
 
 
 > `positive` _bool_ 
-> Uses the positive colour to style the button.
- 
+> Uses the positive colour to style the button. 
 
 
 > `negative` _bool_ 
-> Uses the negative colour to style the button.
- 
+> Uses the negative colour to style the button. 
 
 
 > `default` _bool_ 
-> Uses the midgray colour to style the button.
- 
+> Uses the midgray colour to style the button. 
 
 
 > `outline` _bool_ 
@@ -419,28 +339,19 @@ A basic button that inherits from Base, and provides colourizationbased upon bac
 
 
 > `rounded` _union(number,bool)_ 
-> 
 > _defaultValue: `6`_
 
 
-> `onPress` _func_ 
-> 
- 
+> `onPress` _func_  
 
 
-> `underlayColor` _string_ 
-> 
- 
+> `underlayColor` _string_  
 
 
-> `backgroundColor` _string_ 
-> 
- 
+> `backgroundColor` _string_  
 
 
-> `borderColor` _string_ 
-> 
- 
+> `borderColor` _string_  
 
 
 > `block` _bool_ 
@@ -449,12 +360,10 @@ A basic button that inherits from Base, and provides colourizationbased upon bac
 
 
 > `icon` _union(string,node)_ 
-> optional icon string or node
- 
+> optional icon string or node 
 
 
 > `size` __ 
-> 
 > _defaultValue: `'medium'`_
 
 
@@ -464,19 +373,14 @@ A basic button that inherits from Base, and provides colourizationbased upon bac
 
 **Props**
 
-> `rounded` _union(bool,number)_ 
-> 
- 
+> `rounded` _union(bool,number)_  
 
 
-> `vertical` _bool_ 
-> 
- 
+> `vertical` _bool_  
 
 
 > `segmented` _bool_ 
-> A helper to create segemented controls that align together *
- 
+> A helper to create segemented controls that align together * 
 
 
 
@@ -491,9 +395,7 @@ A very basic Card wrapper
 
 **Props**
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -505,19 +407,13 @@ A very basic card header, which includes an optional avatar,title, subtitle, and
 
 **Props**
 
-> `avatar` _union(string,node)_ 
-> 
- 
+> `avatar` _union(string,node)_  
 
 
-> `title` _union(string,node)_ 
-> 
- 
+> `title` _union(string,node)_  
 
 
-> `subtitle` _union(string,node)_ 
-> 
- 
+> `subtitle` _union(string,node)_  
 
 
 
@@ -531,13 +427,10 @@ Our base icon component that all other iconscompose. It uses ionicons, as provid
 
 **Props**
 
-> `name` _string_  (required)
-> 
- 
+> `name` _string_  (required) 
 
 
 > `size` _number_ 
-> 
 > _defaultValue: `25`_
 
 
@@ -550,19 +443,14 @@ Our base icon component that all other iconscompose. It uses Ionicons 3, as prov
 
 **Props**
 
-> `name` _string_ 
-> 
- 
+> `name` _string_  
 
 
 > `size` _number_ 
-> 
 > _defaultValue: `35`_
 
 
-> `color` _string_ 
-> 
- 
+> `color` _string_  
 
 
 
@@ -572,13 +460,10 @@ Our base icon component that all other iconscompose. It uses Ionicons 3, as prov
 **Props**
 
 > `size` _number_ 
-> 
 > _defaultValue: `25`_
 
 
-> `name` _string_ 
-> 
- 
+> `name` _string_  
 
 
 
@@ -591,32 +476,26 @@ A basic CheckMark that can either be uncheckedor checked.__Platforms__:  ios, an
 **Props**
 
 > `isChecked` _bool_ 
-> 
 > _defaultValue: `false`_
 
 
 > `size` _number_ 
-> 
 > _defaultValue: `30`_
 
 
 > `uncheckedColor` _string_ 
-> 
 > _defaultValue: `'light'`_
 
 
 > `checkedColor` _string_ 
-> 
 > _defaultValue: `'positive'`_
 
 
 > `checkMarkIconName` _string_ 
-> 
 > _defaultValue: `'ios-checkmark-circle-outline'`_
 
 
 > `uncheckedIconName` _string_ 
-> 
 > _defaultValue: `'ios-radio-button-off'`_
 
 
@@ -658,24 +537,16 @@ A touchable wrapper for &lt;Icon /&gt;
 
 **Props**
 
-> `onPress` _func_  (required)
-> 
- 
+> `onPress` _func_  (required) 
 
 
-> `accessibilityLabel` _string_  (required)
-> 
- 
+> `accessibilityLabel` _string_  (required) 
 
 
-> `disabled` _bool_ 
-> 
- 
+> `disabled` _bool_  
 
 
-> `style` _object_ 
-> 
- 
+> `style` _object_  
 
 
 
@@ -690,23 +561,16 @@ Fade-in an image when it loads.
 **Props**
 
 > `fade` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
-> `onLoadEnd` _func_ 
-> 
- 
+> `onLoadEnd` _func_  
 
 
-> `height` _number_ 
-> 
- 
+> `height` _number_  
 
 
-> `width` _number_ 
-> 
- 
+> `width` _number_  
 
 
 > `circular` _bool_ 
@@ -714,18 +578,13 @@ Fade-in an image when it loads.
 > _defaultValue: `false`_
 
 
-> `style` _any_ 
-> 
- 
+> `style` _any_  
 
 
-> `source` _object_  (required)
-> 
- 
+> `source` _object_  (required) 
 
 
 > `resizeMode` _string_ 
-> 
 > _defaultValue: `'cover'`_
 
 
@@ -746,38 +605,25 @@ A basic input
 
 **Props**
 
-> `tiny` _bool_ 
-> 
- 
+> `tiny` _bool_  
 
 
-> `large` _bool_ 
-> 
- 
+> `large` _bool_  
 
 
-> `small` _bool_ 
-> 
- 
+> `small` _bool_  
 
 
-> `medium` _bool_ 
-> 
- 
+> `medium` _bool_  
 
 
-> `giant` _bool_ 
-> 
- 
+> `giant` _bool_  
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 > `placeholderTextColor` _string_ 
-> 
 > _defaultValue: `'#888'`_
 
 
@@ -793,44 +639,28 @@ Static navigation bar that mimics that foundwithin ReactNative. To be used when 
 
 **Props**
 
-> `title` _string_ 
-> 
- 
+> `title` _string_  
 
 
-> `LeftButton` _node_ 
-> 
- 
+> `LeftButton` _node_  
 
 
-> `RightButton` _node_ 
-> 
- 
+> `RightButton` _node_  
 
 
-> `style` _any_ 
-> 
- 
+> `style` _any_  
 
 
-> `transparent` _bool_ 
-> 
- 
+> `transparent` _bool_  
 
 
-> `backgroundColor` _string_ 
-> 
- 
+> `backgroundColor` _string_  
 
 
-> `titleColor` _string_ 
-> 
- 
+> `titleColor` _string_  
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -851,24 +681,16 @@ Renders text stylized for the Navigation Bar title.On iOS it composes PrimaryTex
 
 **Props**
 
-> `label` _string_ 
-> 
- 
+> `label` _string_  
 
 
-> `color` _string_ 
-> 
- 
+> `color` _string_  
 
 
-> `style` _any_ 
-> 
- 
+> `style` _any_  
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -879,9 +701,7 @@ Wrap Icon components within NavTouchableIcon for displayof an Icon in the Naviga
 
 **Props**
 
-> `onPress` _func_  (required)
-> 
- 
+> `onPress` _func_  (required) 
 
 
 
@@ -893,24 +713,17 @@ Makes a touchable text component for the NavBar. Typicallyused on iOS.
 
 **Props**
 
-> `disabled` _bool_ 
-> 
- 
+> `disabled` _bool_  
 
 
 > `color` _string_ 
-> 
 > _defaultValue: `'primary'`_
 
 
-> `bold` _bool_ 
-> 
- 
+> `bold` _bool_  
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -924,40 +737,30 @@ Display an error, with messages and actions dependingupon the user state. Partic
 
 **Props**
 
-> `retry` _func_  (required)
-> 
- 
+> `retry` _func_  (required) 
 
 
 > `message` _string_ 
-> 
 > _defaultValue: `'Hmm, loading appears to be taking a while.'`_
 
 
 > `detailMessage` _string_ 
-> 
 > _defaultValue: `'It\'s possible that our server are under heavy load, ' +
   'or that your internet connection is slow. Please try again.'`_
 
 
 > `offlineMessage` _string_ 
-> 
 > _defaultValue: `'Please ensure that you are connected to the internet.'`_
 
 
-> `style` _any_ 
-> 
- 
+> `style` _any_  
 
 
 > `isOffline` _bool_ 
-> 
 > _defaultValue: `false`_
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -969,38 +772,30 @@ Displays a loading indicator, and on iOS an optionalloading message.
 **Props**
 
 > `isLoading` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
 > `large` _bool_ 
-> 
 > _defaultValue: `false`_
 
 
 > `color` _string_ 
-> 
 > _defaultValue: `'gray'`_
 
 
 > `showText` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
 > `loadingText` _string_ 
-> 
 > _defaultValue: `'Loading...'`_
 
 
 > `alignTop` _bool_ 
-> 
 > _defaultValue: `false`_
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -1012,44 +807,32 @@ Displays a loading indicator, and on iOS an optionalloading message.
 
 **Props**
 
-> `showing` _bool_  (required)
-> 
- 
+> `showing` _bool_  (required) 
 
 
-> `onRequestClose` _func_  (required)
-> 
- 
+> `onRequestClose` _func_  (required) 
 
 
 > `autoDismiss` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
 > `showCancel` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
 > `backgroundColor` _string_ 
-> 
 > _defaultValue: `'rgba(0,0,0,0.6)'`_
 
 
 > `modalProps` _object_ 
-> 
 > _defaultValue: `{}`_
 
 
-> `customHeader` _node_ 
-> 
- 
+> `customHeader` _node_  
 
 
-> `options` _union(arrayOf,arrayOf)_  (required)
-> 
- 
+> `options` _union(arrayOf,arrayOf)_  (required) 
 
 
 
@@ -1064,18 +847,15 @@ A simple component used to separate rows, with anoptional inset margin on the le
 **Props**
 
 > `inset` _number_ 
-> 
 > _defaultValue: `0`_
 
 
 > `insetRight` _number_ 
-> 
 > _defaultValue: `0`_
 
 
 > `inverted` _bool_ 
-> Use the inverted colour *
- 
+> Use the inverted colour * 
 
 
 
@@ -1088,7 +868,6 @@ SectionHeader is used for rendering a section header within a ListView.Supply te
 **Props**
 
 > `backgroundColor` _string_ 
-> 
 > _defaultValue: `'gray'`_
 
 
@@ -1101,44 +880,31 @@ The basic RowCell for use within ListView. It displaysan image, primary text, se
 
 **Props**
 
-> `primaryText` _union(string,node)_ 
-> 
- 
+> `primaryText` _union(string,node)_  
 
 
-> `secondaryText` _union(string,node)_ 
-> 
- 
+> `secondaryText` _union(string,node)_  
 
 
 > `value` _union(string,node)_ 
-> A value attribute of the cell, to appear on the right
- 
+> A value attribute of the cell, to appear on the right 
 
 
-> `onPress` _func_  (required)
-> 
- 
+> `onPress` _func_  (required) 
 
 
 > `image` _union(object,node)_ 
-> An thumbnail to be displayed on the left of the cell
- 
+> An thumbnail to be displayed on the left of the cell 
 
 
-> `height` _number_ 
-> 
- 
+> `height` _number_  
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 > `showMore` _bool_ 
-> Displays a right arrow on the right hand side of the cell
- 
+> Displays a right arrow on the right hand side of the cell 
 
 
 
@@ -1149,39 +915,29 @@ A touchable row cell container, typically usedrendering rows in a &lt;ListView&g
 
 **Props**
 
-> `onPress` _func_ 
-> 
- 
+> `onPress` _func_  
 
 
 > `disabled` _bool_ 
-> 
 > _defaultValue: `false`_
 
 
 > `highlighted` _func_ 
-> 
 > _defaultValue: `function noop () {}`_
 
 
 > `showMore` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
-> `showMoreProps` _object_ 
-> 
- 
+> `showMoreProps` _object_  
 
 
 > `underlayColor` _string_ 
-> 
 > _defaultValue: `'rgba(0,0,0,0.1)'`_
 
 
-> `height` _number_ 
-> 
- 
+> `height` _number_  
 
 
 
@@ -1196,24 +952,16 @@ An InputTouchable with a plus icon. This is typically usedwithin the context of 
 
 **Props**
 
-> `backgroundColor` _string_ 
-> 
- 
+> `backgroundColor` _string_  
 
 
-> `onPress` _func_  (required)
-> 
- 
+> `onPress` _func_  (required) 
 
 
-> `label` _string_  (required)
-> 
- 
+> `label` _string_  (required) 
 
 
-> `disabled` _bool_ 
-> 
- 
+> `disabled` _bool_  
 
 
 
@@ -1225,59 +973,40 @@ InputDatePicker a cross-platform InputRow inputtingdates.On iOS devices, the row
 
 **Props**
 
-> `expanded` _bool_  (required)
-> 
- 
+> `expanded` _bool_  (required) 
 
 
 > `onToggleExpansion` _func_  (required)
-> function called to toggle the visibility of the date-picker. (iOS only) *
- 
+> function called to toggle the visibility of the date-picker. (iOS only) * 
 
 
 > `value` _string_ 
-> the currently selected date to be displayed in collapsed row. *
- 
+> the currently selected date to be displayed in collapsed row. * 
 
 
-> `maxDate` _string_ 
-> 
- 
+> `maxDate` _string_  
 
 
-> `minDate` _string_ 
-> 
- 
+> `minDate` _string_  
 
 
-> `label` _string_ 
-> 
- 
+> `label` _string_  
 
 
-> `mode` _string_ 
-> 
- 
+> `mode` _string_  
 
 
-> `date` _object_  (required)
-> 
- 
+> `date` _object_  (required) 
 
 
-> `onDateChange` _func_  (required)
-> 
- 
+> `onDateChange` _func_  (required) 
 
 
 > `editable` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -1293,14 +1022,10 @@ An input row field that expands when pressed to reveal itschildren.__Platforms__
 
 **Props**
 
-> `expanded` _bool_  (required)
-> 
- 
+> `expanded` _bool_  (required) 
 
 
-> `Row` _node_  (required)
-> 
- 
+> `Row` _node_  (required) 
 
 
 
@@ -1312,9 +1037,7 @@ Wrapping components with InputGroup gives you theoption of giving Inputs dividin
 
 **Props**
 
-> `style` _object_ 
-> 
- 
+> `style` _object_  
 
 
 > `inset` _number_ 
@@ -1348,18 +1071,13 @@ Wrapping components with InputGroup gives you theoption of giving Inputs dividin
 
 
 > `label` _string_ 
-> a label for the input group
- 
+> a label for the input group 
 
 
-> `backgroundColor` _string_ 
-> 
- 
+> `backgroundColor` _string_  
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -1371,9 +1089,7 @@ InputHelpText is typically used after an InputGroup tooffer additional informati
 
 **Props**
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -1386,33 +1102,26 @@ InputPicker provides a unified API for Android and iOSpicker rows.On iOS, when t
 **Props**
 
 > `onToggleExpansion` _func_  (required)
-> a function called when toggling the visibility of the picker. (iOS only)
- 
+> a function called when toggling the visibility of the picker. (iOS only) 
 
 
 > `editable` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
 > `value` _string_ 
-> the picker value displayed in the row. (iOS only)
- 
+> the picker value displayed in the row. (iOS only) 
 
 
 > `label` _string_  (required)
-> the label for the picker *
- 
+> the label for the picker * 
 
 
 > `expanded` _bool_ 
-> controls whether the picker is visible. (iOS only)
- 
+> controls whether the picker is visible. (iOS only) 
 
 
-> `backgroundColor` _string_ 
-> 
- 
+> `backgroundColor` _string_  
 
 
 
@@ -1423,9 +1132,7 @@ A collection of RowActions to be displayed behinda revealing row.
 
 **Props**
 
-> `style` _any_ 
-> 
- 
+> `style` _any_  
 
 
 
@@ -1453,94 +1160,63 @@ An Input field with a lot of added functionality. You&#039;d typicallywant to wr
 
 **Props**
 
-> `label` _string_ 
-> 
- 
+> `label` _string_  
 
 
-> `autoFocus` _bool_ 
-> 
- 
+> `autoFocus` _bool_  
 
 
 > `removable` _bool_ 
-> 
 > _defaultValue: `false`_
 
 
-> `placeholder` _string_ 
-> 
- 
+> `placeholder` _string_  
 
 
-> `vertical` _bool_ 
-> 
- 
+> `vertical` _bool_  
 
 
-> `onSelectLabel` _func_ 
-> 
- 
+> `onSelectLabel` _func_  
 
 
-> `onChangeText` _func_  (required)
-> 
- 
+> `onChangeText` _func_  (required) 
 
 
-> `value` _union(string,node)_ 
-> 
- 
+> `value` _union(string,node)_  
 
 
 > `backgroundColor` _string_ 
-> 
 > _defaultValue: `'white'`_
 
 
 > `editable` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
-> `labelWidth` _number_ 
-> 
- 
+> `labelWidth` _number_  
 
 
 > `verticalHeight` _number_ 
-> 
 > _defaultValue: `80`_
 
 
-> `onRequestRemove` _func_ 
-> 
- 
+> `onRequestRemove` _func_  
 
 
 > `height` _number_ 
-> 
 > _defaultValue: `50`_
 
 
-> `icon` _node_ 
-> 
- 
+> `icon` _node_  
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
-> `condensed` _bool_ 
-> 
- 
+> `condensed` _bool_  
 
 
-> `multiline` _bool_ 
-> 
- 
+> `multiline` _bool_  
 
 
 
@@ -1553,7 +1229,6 @@ A simple component that is used to wrap various Input Rows.It provides a fixed h
 **Props**
 
 > `height` _number_ 
-> 
 > _defaultValue: `50`_
 
 
@@ -1565,23 +1240,17 @@ Input Option
 
 **Props**
 
-> `onPress` _func_  (required)
-> 
- 
+> `onPress` _func_  (required) 
 
 
 > `backgroundColor` _string_ 
-> 
 > _defaultValue: `'midgray'`_
 
 
-> `label` _string_  (required)
-> 
- 
+> `label` _string_  (required) 
 
 
 > `textColor` _string_ 
-> 
 > _defaultValue: `'white'`_
 
 
@@ -1594,13 +1263,10 @@ Revealable row options container. Typically usedto delete a row.
 **Props**
 
 > `height` _number_ 
-> 
 > _defaultValue: `40`_
 
 
-> `options` _array_ 
-> 
- 
+> `options` _array_  
 
 
 
@@ -1612,43 +1278,30 @@ A row with a label and switch, allowingthe user to toggle a boolean value.__Plat
 
 **Props**
 
-> `style` _any_ 
-> 
- 
+> `style` _any_  
 
 
-> `value` _bool_  (required)
-> 
- 
+> `value` _bool_  (required) 
 
 
 > `backgroundColor` _string_ 
-> 
 > _defaultValue: `'transparent'`_
 
 
-> `label` _string_  (required)
-> 
- 
+> `label` _string_  (required) 
 
 
-> `onValueChange` _func_  (required)
-> 
- 
+> `onValueChange` _func_  (required) 
 
 
 > `editable` _bool_ 
-> 
 > _defaultValue: `true`_
 
 
-> `switchProps` _object_ 
-> 
- 
+> `switchProps` _object_  
 
 
 > `onTintColor` _string_ 
-> 
 > _defaultValue: `'success'`_
 
 
@@ -1662,58 +1315,40 @@ An InputTouchable is typically used within the context of anInputGroup, when you
 **Props**
 
 > `backgroundColor` _string_ 
-> 
 > _defaultValue: `'white'`_
 
 
-> `label` _union(string,node)_  (required)
-> 
- 
+> `label` _union(string,node)_  (required) 
 
 
-> `icon` _node_ 
-> 
- 
+> `icon` _node_  
 
 
-> `image` _object_ 
-> 
- 
+> `image` _object_  
 
 
-> `value` _union(string,node)_ 
-> 
- 
+> `value` _union(string,node)_  
 
 
 > `showMore` _bool_ 
-> 
 > _defaultValue: `false`_
 
 
-> `condensed` _bool_ 
-> 
- 
+> `condensed` _bool_  
 
 
-> `onPress` _func_  (required)
-> 
- 
+> `onPress` _func_  (required) 
 
 
 > `disabled` _bool_ 
-> 
 > _defaultValue: `false`_
 
 
 > `labelColor` _string_ 
-> 
 > _defaultValue: `'default'`_
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
 
@@ -1726,17 +1361,13 @@ ReavealingRow enables a row to have revealed optionsthat appear, for instance, w
 **Props**
 
 > `showingOptions` _bool_  (required)
-> 
 > _defaultValue: `false`_
 
 
-> `revealedContent` _node_  (required)
-> 
- 
+> `revealedContent` _node_  (required) 
 
 
 > `backgroundColor` _string_ 
-> 
 > _defaultValue: `'white'`_
 
 
@@ -1751,54 +1382,34 @@ Basic Text Component that provides shorthands for sizing,lineHeight, and fontWei
 
 **Props**
 
-> `tiny` _bool_ 
-> 
- 
+> `tiny` _bool_  
 
 
-> `small` _bool_ 
-> 
- 
+> `small` _bool_  
 
 
-> `medium` _bool_ 
-> 
- 
+> `medium` _bool_  
 
 
-> `large` _bool_ 
-> 
- 
+> `large` _bool_  
 
 
-> `giant` _bool_ 
-> 
- 
+> `giant` _bool_  
 
 
-> `thin` _bool_ 
-> 
- 
+> `thin` _bool_  
 
 
-> `thick` _bool_ 
-> 
- 
+> `thick` _bool_  
 
 
-> `bold` _bool_ 
-> 
- 
+> `bold` _bool_  
 
 
-> `inverted` _bool_ 
-> 
- 
+> `inverted` _bool_  
 
 
-> `lineHeight` _number_ 
-> 
- 
+> `lineHeight` _number_  
 
 
 
