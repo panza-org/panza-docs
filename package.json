@@ -12,7 +12,7 @@
     "clean": "hexo clean",
     "start": "hexo serve",
     "generate": "hexo generate",
-    "deploy": "hexo deploy"
+    "deploy": "hexo deploy --generate"
   },
   "dependencies": {
     "hexo": "^3.2.0",

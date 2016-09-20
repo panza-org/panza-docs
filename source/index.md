@@ -4,14 +4,14 @@ order: 0
 description: Panza is a stateless UI library for React Native
 ---
 
-Panza is a UI foundation for [react-native](https://github.com/facebook/react-native) (on iOS and Android) with experimental support for [react-native-web](https://github.com/necolas/react-native-web). It's inspired by the excellent [rebass](https://github.com/jxnblk/rebass) library. Essentially, it's the [Bootstrap](http://getbootstrap.com/) of react-native.
+Panza is a simple, flexible, and beautiful ui foundation for [react-native](https://github.com/facebook/react-native) and [react-native-web](https://github.com/necolas/react-native-web), created by [Ben McMahen](https://twitter.com/BenMcMahen) and [Hammad Jutt](http://jutt.ca). Essentially, it's the [Bootstrap](http://getbootstrap.com/) of react-native.
 
 Panza gives you:
 
 - The standard building blocks of most mobile applications.
 - Beautiful UI-styles out of the box, suitable for iOS, Android, and the web.
 - A method for [theming](themes.html) your application.
-- A [Base](ele.html#Base) and [Text](components.html#Text) component, which provide useful shorthand [prop to style conversions](components.html#Base). For example, use `p={2}` to provide padding, or `backgroundColor='primary'` to provide a background colour. Most UI-components compose `Base`, and thus accept these props.
+- A [Base](components.html#Base) and [Text](components.html#Text) component, which provide useful shorthand [prop to style conversions](components.html#Base). For example, use `p={2}` to provide padding, or `backgroundColor='primary'` to provide a background colour. Most UI-components compose `Base`, and thus accept these props.
 
 So instead of doing this:
 
