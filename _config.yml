@@ -16,17 +16,26 @@ sidebar_categories:
   null:
     - index
   'Component API':
-    - elements/Base
-    - elements/Button
-    - elements/TextBase
+    - components/Base
+    - components/Text
+    - components/Buttons
+    - components/Card
+    - components/Icons
+    - components/Image
+    - components/Input
+    - components/Nav
+    - components/Pages
+    - components/Popup
+    - components/Row
+    - components/RowInput
 
 logo:
-  nav_mobile: logo/logo-text.svg
+  nav_mobile: /logo/logo-text.svg
   title: Panza Docs
   subtitle: Documentation
   url: http://panza.js.org
   target: _new
-favicon: logo/favicon.png
+favicon: /logo/favicon.png
 
 github_repo: panza-org/panza-docs
 content_root: source

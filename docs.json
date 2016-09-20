@@ -1199,12 +1199,19 @@
       "displayName": "Button",
       "methods": [],
       "props": {
-        "small": {
+        "tiny": {
           "type": {
             "name": "bool"
           },
           "required": false,
           "description": "button size"
+        },
+        "small": {
+          "type": {
+            "name": "bool"
+          },
+          "required": false,
+          "description": ""
         },
         "medium": {
           "type": {
@@ -1214,6 +1221,13 @@
           "description": ""
         },
         "large": {
+          "type": {
+            "name": "bool"
+          },
+          "required": false,
+          "description": ""
+        },
+        "giant": {
           "type": {
             "name": "bool"
           },
@@ -1286,7 +1300,15 @@
         },
         "rounded": {
           "type": {
-            "name": "number"
+            "name": "union",
+            "value": [
+              {
+                "name": "number"
+              },
+              {
+                "name": "bool"
+              }
+            ]
           },
           "required": false,
           "description": "",
@@ -1841,7 +1863,15 @@
     {
       "description": "A basic input\n@composes Text",
       "displayName": "Input",
-      "methods": [],
+      "methods": [
+        {
+          "name": "focus",
+          "docblock": null,
+          "modifiers": [],
+          "params": [],
+          "returns": null
+        }
+      ],
       "props": {
         "tiny": {
           "type": {

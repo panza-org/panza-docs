@@ -1,6 +1,6 @@
 [submodule "code"]
 	path = code
-	url = https://github.com/bmcmahen/panza
+	url = https://github.com/panza-org/panza
 	branch = docs
 [submodule "themes/meteor"]
 	path = themes/meteor
