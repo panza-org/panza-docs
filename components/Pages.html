@@ -4,21 +4,21 @@
     <meta charset="utf-8">
 
     <!-- Basic -->
-    <title>RowActions | Panza Docs</title>
-    <meta name="description" content="A collection of RowActions to be displayed behinda revealing row.">
+    <title>Pages | Panza Docs</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="logo/favicon.png" sizes="16x16 32x32 64x64">
+    <link rel="shortcut icon" type="image/png" href="/logo/favicon.png" sizes="16x16 32x32 64x64">
 
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://panza.js.org">
-    <meta property="og:title" content="RowActions | Panza Docs">
-    <meta property="og:description" content="A collection of RowActions to be displayed behinda revealing row.">
+    <meta property="og:title" content="Pages | Panza Docs">
+    <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta name="twitter:card" content="summary_image_large">
     <meta name="twitter:site" content="@panza">
-    <meta name="twitter:title" content="RowActions | Panza Docs">
-    <meta name="twitter:description" content="A collection of RowActions to be displayed behinda revealing row.">
+    <meta name="twitter:title" content="Pages | Panza Docs">
+    <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
 
     <!-- Misc -->
@@ -36,14 +36,14 @@
         <span class="icon-menu"></span>
       </span>
       <a class="logo show-desktop" href="http://panza.js.org" title="Panza Docs" target=_new >
-        <img src="logo/logo-text.svg" alt="Panza Docs"/>
+        <img src="/logo/logo-text.svg" alt="Panza Docs"/>
         <span>Documentation</span>
       </a>
     </div>
   </div>
 
   <div class="center-wrapper show-mobile">
-    <img src="logo/logo-text.svg" alt="Panza Docs"/>
+    <img src="/logo/logo-text.svg" alt="Panza Docs"/>
     <div>Documentation</div>
   </div>
 
@@ -127,20 +127,6 @@
                 </a>
               </li>
             
-              
-              <li class="item-toc ">
-                <a href="Button.html" class="sidebar-link ">
-                  <span>Button</span>
-                </a>
-              </li>
-            
-              
-              <li class="item-toc ">
-                <a href="TextBase.html" class="sidebar-link ">
-                  <span>TextBase</span>
-                </a>
-              </li>
-            
           </ul>
         </li>
       
@@ -151,39 +137,51 @@
 <div class="content">
   <div class="content-wrapper">
     <div class="header-content">
-      <h1 class="title-page">RowActions</h1>
-      
-        <div class="subtitle-page">A collection of RowActions to be displayed behinda revealing row.</div>
+      <h1 class="title-page">Pages</h1>
       
 
       <div class="page-actions">
         <div class="actions-group">
-          <a class="btn primary small round lowercase" href="https://github.com/panza-org/panza-docs/tree/master/source/elements/RowActions.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          <a class="btn primary small round lowercase" href="https://github.com/panza-org/panza-docs/tree/master/source/components/Pages.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
           
         </div>
       </div>
     </div>
 
     <div class="document-formatting">
-      <p>A collection of RowActions to be displayed behind<br>a revealing row.</p>
-<h4 id="Props"><a href="#Props" class="headerlink" title="Props"></a>Props</h4><table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Default Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>style</td>
-<td>any</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+      <h3 id="ErrorPage"><a href="#ErrorPage" class="headerlink" title="ErrorPage"></a>ErrorPage</h3><p>Display an error, with messages and actions dependingupon the user state. Particularly useful with Relay.Rendererwhen an error state and retry function are provided.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>retry</code> <em>func</em>  (required)</p>
+<p><code>message</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;Hmm, loading appears to be taking a while.&#39;</code></em></p>
+<p><code>detailMessage</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;It\&#39;s possible that our server are under heavy load, &#39; +
+  &#39;or that your internet connection is slow. Please try again.&#39;</code></em></p>
+<p><code>offlineMessage</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;Please ensure that you are connected to the internet.&#39;</code></em></p>
+<p><code>style</code> <em>any</em> </p>
+<p><code>isOffline</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="Loader"><a href="#Loader" class="headerlink" title="Loader"></a>Loader</h3><p>Displays a loading indicator, and on iOS an optionalloading message.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>isLoading</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>large</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>color</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;gray&#39;</code></em></p>
+<p><code>showText</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>loadingText</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;Loading...&#39;</code></em></p>
+<p><code>alignTop</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
 
     </div>
   </div>
@@ -193,17 +191,17 @@
       
       
         <a class="link primary prev"
-          href="InputRow.html">
+          href="Nav.html">
           <span class="icon-arrow-left-alt"></span>
           <span class="subtitle-pagination">Previous</span>
-          InputRow
+          Nav
         </a>
       
       
         <a class="link primary next"
-          href="InputRowCell.html">
+          href="Popup.html">
           <span class="subtitle-pagination">Next</span>
-          InputRowCell
+          Popup
           <span class="icon-arrow-right-alt"></span>
         </a>
       
@@ -211,7 +209,7 @@
   </div>
 
   <div class="github">
-    <a class="link tertiary " href="https://github.com/panza-org/panza-docs/tree/master/source/elements/RowActions.md" target="_blank">
+    <a class="link tertiary " href="https://github.com/panza-org/panza-docs/tree/master/source/components/Pages.md" target="_blank">
       <span class="icon-github"></span>Edit on GitHub</a>
   </div>
 

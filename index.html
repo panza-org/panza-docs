@@ -7,7 +7,7 @@
     <title>Getting Started | Panza Docs</title>
     <meta name="description" content="Panza is a stateless UI library for React Native">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="logo/favicon.png" sizes="16x16 32x32 64x64">
+    <link rel="shortcut icon" type="image/png" href="/logo/favicon.png" sizes="16x16 32x32 64x64">
 
     <!-- Social -->
     <meta property="og:type" content="article">
@@ -36,14 +36,14 @@
         <span class="icon-menu"></span>
       </span>
       <a class="logo show-desktop" href="http://panza.js.org" title="Panza Docs" target=_new >
-        <img src="logo/logo-text.svg" alt="Panza Docs"/>
+        <img src="/logo/logo-text.svg" alt="Panza Docs"/>
         <span>Documentation</span>
       </a>
     </div>
   </div>
 
   <div class="center-wrapper show-mobile">
-    <img src="logo/logo-text.svg" alt="Panza Docs"/>
+    <img src="/logo/logo-text.svg" alt="Panza Docs"/>
     <div>Documentation</div>
   </div>
 
@@ -122,22 +122,8 @@
             
               
               <li class="item-toc ">
-                <a href="elements/Base.html" class="sidebar-link ">
+                <a href="components/Base.html" class="sidebar-link ">
                   <span>Base</span>
-                </a>
-              </li>
-            
-              
-              <li class="item-toc ">
-                <a href="elements/Button.html" class="sidebar-link ">
-                  <span>Button</span>
-                </a>
-              </li>
-            
-              
-              <li class="item-toc ">
-                <a href="elements/TextBase.html" class="sidebar-link ">
-                  <span>TextBase</span>
                 </a>
               </li>
             
@@ -171,7 +157,7 @@
 <li>The standard building blocks of most mobile applications.</li>
 <li>Beautiful UI-styles out of the box, suitable for iOS, Android, and the web.</li>
 <li>A method for <a href="themes.html">theming</a> your application.</li>
-<li>A <a href="components.html#Base">Base</a> and <a href="components.html#Text">Text</a> component, which provide useful shorthand <a href="components.html#Base">prop to style conversions</a>. For example, use <code>p={2}</code> to provide padding, or <code>backgroundColor=&#39;primary&#39;</code> to provide a background colour. Most UI-components compose <code>Base</code>, and thus accept these props.</li>
+<li>A <a href="ele.html#Base">Base</a> and <a href="components.html#Text">Text</a> component, which provide useful shorthand <a href="components.html#Base">prop to style conversions</a>. For example, use <code>p={2}</code> to provide padding, or <code>backgroundColor=&#39;primary&#39;</code> to provide a background colour. Most UI-components compose <code>Base</code>, and thus accept these props.</li>
 </ul>
 <p>So instead of doing this:</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">const</span> styles = StyleSheets.create(&#123;</div><div class="line">  button: &#123;</div><div class="line">    backgroundColor: <span class="string">'transparent'</span>,</div><div class="line">    borderRadius: <span class="number">5</span>,</div><div class="line">    borderWidth: <span class="number">1</span>,</div><div class="line">    borderColor: <span class="string">'#F62459'</span>,</div><div class="line">    paddingVertical: <span class="number">4</span>,</div><div class="line">    paddingHorizontal: <span class="number">8</span></div><div class="line">  &#125;</div><div class="line">&#125;);</div><div class="line"> </div><div class="line">&lt;TouchableOpacity style=&#123;styles.button&#125;&gt;</div><div class="line">  &lt;Text style=&#123;&#123; color: '#F62459', fontSize: 15 &#125;&#125;&gt;Press me!&lt;/Text&gt;</div><div class="line">&lt;/TouchableOpacity&gt;</div></pre></td></tr></table></figure>
@@ -203,9 +189,9 @@
       
       
         <a class="link primary next"
-          href="elements/Base.html">
+          href="components.html">
           <span class="subtitle-pagination">Next</span>
-          Base
+          Component API
           <span class="icon-arrow-right-alt"></span>
         </a>
       

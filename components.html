@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Basic -->
+    <title>Component API | Panza Docs</title>
+    <meta name="description" content="A list of all components provided by Panza and their props">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/logo/favicon.png" sizes="16x16 32x32 64x64">
+
+    <!-- Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://panza.js.org">
+    <meta property="og:title" content="Component API | Panza Docs">
+    <meta property="og:description" content="A list of all components provided by Panza and their props">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_image_large">
+    <meta name="twitter:site" content="@panza">
+    <meta name="twitter:title" content="Component API | Panza Docs">
+    <meta name="twitter:description" content="A list of all components provided by Panza and their props">
+    <meta name="twitter:image" content="">
+
+    <!-- Misc -->
+    <meta name="google-site-verification" content="" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body class="">
+    
+
+<div class="nav dark">
+  <div class="nav-group">
+    <div class="nav-item">
+      <span class="js-sidebar-toggle show-mobile">
+        <span class="icon-menu"></span>
+      </span>
+      <a class="logo show-desktop" href="http://panza.js.org" title="Panza Docs" target=_new >
+        <img src="/logo/logo-text.svg" alt="Panza Docs"/>
+        <span>Documentation</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="center-wrapper show-mobile">
+    <img src="/logo/logo-text.svg" alt="Panza Docs"/>
+    <div>Documentation</div>
+  </div>
+
+  <div class="nav-group right">
+    
+    
+      <div class="nav-item show-desktop active">
+        <a class="link" href="http://panza.js.org"  >
+          <span>Docs</span>
+        </a>
+      </div>
+    
+      <div class="nav-item show-desktop ">
+        <a class="link" href="https://github.com/panza-org/panza" target=_new >
+          <span>Github</span>
+        </a>
+      </div>
+    
+  </div>
+
+  
+
+</div>
+
+<div class="sidebar">
+  <div class="panel">
+    <div class="panel-item">
+      <a class="" href="http://panza.js.org" title="Panza Docs" target=_new >
+        <span>Panza Docs</span>
+      </a>
+    </div>
+    
+      <div class="panel-item active"">
+        <a class="" href="http://panza.js.org"  >
+          <span>Docs</span>
+        </a>
+      </div>
+    
+      <div class="panel-item "">
+        <a class="" href="https://github.com/panza-org/panza" target=_new >
+          <span>Github</span>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="sidebar-content">
+    <div class="topcap">
+      <span class="title-sidebar">Panza Docs</span>
+      
+    </div>
+
+    
+
+    <ul class="toc">
+      
+        <li>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc ">
+                <a href="index.html" class="sidebar-link ">
+                  <span>Getting Started</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+        <li>
+          
+            <div class="heading-toc">Component API</div>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc ">
+                <a href="components/Base.html" class="sidebar-link ">
+                  <span>Base</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+  <div class="content-wrapper">
+    <div class="header-content">
+      <h1 class="title-page">Component API</h1>
+      
+        <div class="subtitle-page">A list of all components provided by Panza and their props</div>
+      
+
+      <div class="page-actions">
+        <div class="actions-group">
+          <a class="btn primary small round lowercase" href="https://github.com/panza-org/panza-docs/tree/master/source/components.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="document-formatting">
+      <h2 id="Base"><a href="#Base" class="headerlink" title="Base"></a>Base</h2><hr>
+<h3 id="Base-1"><a href="#Base-1" class="headerlink" title="Base"></a>Base</h3><p>A general purpose component that converts props into stylesdefined by our theme. It&#039;s heavily inspired by the Basecomponent provided by <a href="https://github.com/jxnblk/rebass" target="_blank" rel="external">rebass</a>.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>Component</code> <em>any</em><br>Custom Component</p>
+<p><code>baseStyle</code> <em>any</em><br>The base style will be supplanted by style props, or regular style properties.</p>
+<p><code>style</code> <em>any</em><br>Regular style attribute</p>
+<p><code>underlayColor</code> <em>string</em><br>Underlay color. Use ‘darken’ to automatically darken the backgroundColor.</p>
+<p><code>m</code> <em>enum(0,1,2,3,4)</em><br>Margin based on the configured scale</p>
+<p><code>mt</code> <em>enum(0,1,2,3,4)</em><br>Margin top based on the configured scale</p>
+<p><code>mr</code> <em>enum(0,1,2,3,4)</em><br>Margin right based on the configured scale</p>
+<p><code>mb</code> <em>enum(0,1,2,3,4)</em><br>Margin bottom based on the configured scale</p>
+<p><code>ml</code> <em>enum(0,1,2,3,4)</em><br>Margin left based on the configured scale</p>
+<p><code>mx</code> <em>enum(0,1,2,3,4)</em><br>Margin x-axis based on the configured scale</p>
+<p><code>my</code> <em>enum(0,1,2,3,4)</em><br>Margin y-asix based on the configured scale</p>
+<p><code>p</code> <em>enum(0,1,2,3,4)</em><br>Padding based on the configured scale</p>
+<p><code>pt</code> <em>enum(0,1,2,3,4)</em><br>Padding top based on the configured scale</p>
+<p><code>pr</code> <em>enum(0,1,2,3,4)</em><br>Padding right based on the configured scale</p>
+<p><code>pb</code> <em>enum(0,1,2,3,4)</em><br>Padding bottom based on the configured scale</p>
+<p><code>pl</code> <em>enum(0,1,2,3,4)</em><br>Padding left based on the configured scale</p>
+<p><code>px</code> <em>enum(0,1,2,3,4)</em><br>Padding x-axis based on the configured scale</p>
+<p><code>py</code> <em>enum(0,1,2,3,4)</em><br>Padding y-axis based on the configured scale</p>
+<p><code>backgroundColor</code> <em>string</em><br>Background color.</p>
+<p><code>rounded</code> <em>union(bool,number)</em><br>Border radius</p>
+<p><code>borderColor</code> <em>string</em><br>Border color</p>
+<p><code>flex</code> <em>number</em><br>Flex property</p>
+<p><code>wrap</code> <em>bool</em><br>Flex-wrap property</p>
+<p><code>column</code> <em>bool</em><br>Set the flex-direction to column</p>
+<p><code>row</code> <em>bool</em><br>Set the flex-direction to row</p>
+<p><code>align</code> <em>string</em><br>Align-items property</p>
+<p><code>justify</code> <em>string</em><br>Justify-content property</p>
+<p><code>height</code> <em>number</em><br>The height of the element</p>
+<p><code>width</code> <em>number</em><br>The width of the element</p>
+</blockquote>
+<h3 id="TextBase"><a href="#TextBase" class="headerlink" title="TextBase"></a>TextBase</h3><p>A general purpose text component whichconverts props into styles defined in the configuration.Unlike Base, TextBase supports special Text props.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>Component</code> <em>any</em> </p>
+<p><code>style</code> <em>any</em> </p>
+<p><code>baseStyle</code> <em>any</em> </p>
+<p><code>fontSize</code> <em>enum(0,1,2,3,4,5,6)</em><br>text size *</p>
+<p><code>lineHeight</code> <em>enum(0,1,2,3,4,5,6)</em><br>text lineheight *<br><em>defaultValue: <code>1</code></em></p>
+<p><code>color</code> <em>string</em><br>text colour *<br><em>defaultValue: <code>&#39;default&#39;</code></em></p>
+<p><code>textAlign</code> <em>string</em><br>text alignment *</p>
+<p><code>bold</code> <em>bool</em><br>bold font weight *</p>
+<p><code>thin</code> <em>bool</em><br>thin font weight *</p>
+<p><code>thick</code> <em>bool</em><br>thick font weight *</p>
+<p><code>inverted</code> <em>bool</em><br>use the inverted color (by default, white) *</p>
+<p><code>m</code> <em>enum(0,1,2,3,4)</em><br>Margin *</p>
+<p><code>mt</code> <em>enum(0,1,2,3,4)</em><br>Margin top *</p>
+<p><code>mr</code> <em>enum(0,1,2,3,4)</em><br>Margin right *</p>
+<p><code>mb</code> <em>enum(0,1,2,3,4)</em><br>Margin bottom *</p>
+<p><code>ml</code> <em>enum(0,1,2,3,4)</em><br>Margin left *</p>
+<p><code>mx</code> <em>enum(0,1,2,3,4)</em><br>Margin x-axis *</p>
+<p><code>my</code> <em>enum(0,1,2,3,4)</em><br>Margin y-asix *</p>
+<p><code>p</code> <em>enum(0,1,2,3,4)</em><br>Padding *</p>
+<p><code>pt</code> <em>enum(0,1,2,3,4)</em><br>Padding top *</p>
+<p><code>pr</code> <em>enum(0,1,2,3,4)</em><br>Padding right *</p>
+<p><code>pb</code> <em>enum(0,1,2,3,4)</em><br>Padding bottom *</p>
+<p><code>pl</code> <em>enum(0,1,2,3,4)</em><br>Padding left *</p>
+<p><code>px</code> <em>enum(0,1,2,3,4)</em><br>Padding x-axis *</p>
+<p><code>py</code> <em>enum(0,1,2,3,4)</em><br>Padding y-axis *</p>
+<p><code>backgroundColor</code> <em>string</em><br>Background color *</p>
+<p><code>rounded</code> <em>union(bool,number)</em><br>Border radius *</p>
+<p><code>borderColor</code> <em>string</em><br>Border color *</p>
+<p><code>flex</code> <em>number</em><br>flex property *</p>
+<p><code>wrap</code> <em>bool</em><br>flex-wrap property *</p>
+<p><code>column</code> <em>bool</em><br>set flex-direction to column *</p>
+<p><code>row</code> <em>bool</em><br>set flex-direction to row *</p>
+<p><code>align</code> <em>string</em><br>set align-items property *</p>
+<p><code>justify</code> <em>string</em><br>set justify-content property *</p>
+<p><code>height</code> <em>number</em><br>set the height of the element *</p>
+<p><code>width</code> <em>number</em><br>set the width of the element *</p>
+</blockquote>
+<h2 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h2><hr>
+<h3 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h3><p>A basic button that inherits from Base, and provides colourizationbased upon background color configuration.<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a>, <a href="elements.html#Text">Text</a>, <a href="elements.html#Icon">Icon</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>tiny</code> <em>bool</em><br>button size</p>
+<p><code>small</code> <em>bool</em> </p>
+<p><code>medium</code> <em>bool</em> </p>
+<p><code>large</code> <em>bool</em> </p>
+<p><code>giant</code> <em>bool</em> </p>
+<p><code>primary</code> <em>bool</em><br>Uses the primary colour to style the button.</p>
+<p><code>secondary</code> <em>bool</em><br>Uses the secondary colour to style the button.</p>
+<p><code>positive</code> <em>bool</em><br>Uses the positive colour to style the button.</p>
+<p><code>negative</code> <em>bool</em><br>Uses the negative colour to style the button.</p>
+<p><code>default</code> <em>bool</em><br>Uses the midgray colour to style the button.</p>
+<p><code>outline</code> <em>bool</em><br>Use an outline button style *<br><em>defaultValue: <code>false</code></em></p>
+<p><code>disabled</code> <em>bool</em><br>disables the button, and reduces its opacity<br><em>defaultValue: <code>false</code></em></p>
+<p><code>rounded</code> <em>union(number,bool)</em> </p>
+<p><em>defaultValue: <code>6</code></em></p>
+<p><code>onPress</code> <em>func</em> </p>
+<p><code>underlayColor</code> <em>string</em> </p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><code>borderColor</code> <em>string</em> </p>
+<p><code>block</code> <em>bool</em><br>stretch the button width<br><em>defaultValue: <code>false</code></em></p>
+<p><code>icon</code> <em>union(string,node)</em><br>optional icon string or node</p>
+<p><code>size</code> __ </p>
+<p><em>defaultValue: <code>&#39;medium&#39;</code></em></p>
+</blockquote>
+<h3 id="ButtonGroup"><a href="#ButtonGroup" class="headerlink" title="ButtonGroup"></a>ButtonGroup</h3><p><strong>Props</strong></p>
+<blockquote>
+<p><code>rounded</code> <em>union(bool,number)</em> </p>
+<p><code>vertical</code> <em>bool</em> </p>
+<p><code>segmented</code> <em>bool</em><br>A helper to create segemented controls that align together *</p>
+</blockquote>
+<h2 id="Card"><a href="#Card" class="headerlink" title="Card"></a>Card</h2><hr>
+<h3 id="Card-1"><a href="#Card-1" class="headerlink" title="Card"></a>Card</h3><p>A very basic Card wrapper<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="CardHeader"><a href="#CardHeader" class="headerlink" title="CardHeader"></a>CardHeader</h3><p>A very basic card header, which includes an optional avatar,title, subtitle, and children<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a>, <a href="elements.html#Image">Image</a>, <a href="elements.html#Text">Text</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>avatar</code> <em>union(string,node)</em> </p>
+<p><code>title</code> <em>union(string,node)</em> </p>
+<p><code>subtitle</code> <em>union(string,node)</em> </p>
+</blockquote>
+<h2 id="Icons"><a href="#Icons" class="headerlink" title="Icons"></a>Icons</h2><hr>
+<h3 id="BaseIcon"><a href="#BaseIcon" class="headerlink" title="BaseIcon"></a>BaseIcon</h3><p>Our base icon component that all other iconscompose. It uses ionicons, as provided byreact-native-vector-icons</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>name</code> <em>string</em>  (required)</p>
+<p><code>size</code> <em>number</em> </p>
+<p><em>defaultValue: <code>25</code></em></p>
+</blockquote>
+<h3 id="Icon"><a href="#Icon" class="headerlink" title="Icon"></a>Icon</h3><p>Our base icon component that all other iconscompose. It uses Ionicons 3, as provided byreact-native-vector-icons on Android and iOS.To use this on the web, you must include a linktag to the Ionicons 3 stylesheet.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#TextBase">TextBase</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>name</code> <em>string</em> </p>
+<p><code>size</code> <em>number</em> </p>
+<p><em>defaultValue: <code>35</code></em></p>
+<p><code>color</code> <em>string</em> </p>
+</blockquote>
+<h3 id="BaseIcon-1"><a href="#BaseIcon-1" class="headerlink" title="BaseIcon"></a>BaseIcon</h3><p><strong>Props</strong></p>
+<blockquote>
+<p><code>size</code> <em>number</em> </p>
+<p><em>defaultValue: <code>25</code></em></p>
+<p><code>name</code> <em>string</em> </p>
+</blockquote>
+<h3 id="CheckMark"><a href="#CheckMark" class="headerlink" title="CheckMark"></a>CheckMark</h3><p>A basic CheckMark that can either be uncheckedor checked.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a>, <a href="elements.html#Icon">Icon</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>isChecked</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>size</code> <em>number</em> </p>
+<p><em>defaultValue: <code>30</code></em></p>
+<p><code>uncheckedColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;light&#39;</code></em></p>
+<p><code>checkedColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;positive&#39;</code></em></p>
+<p><code>checkMarkIconName</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;ios-checkmark-circle-outline&#39;</code></em></p>
+<p><code>uncheckedIconName</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;ios-radio-button-off&#39;</code></em></p>
+</blockquote>
+<h3 id="ArrowRightIcon"><a href="#ArrowRightIcon" class="headerlink" title="ArrowRightIcon"></a>ArrowRightIcon</h3><h3 id="PlusIcon"><a href="#PlusIcon" class="headerlink" title="PlusIcon"></a>PlusIcon</h3><h3 id="CloseIcon"><a href="#CloseIcon" class="headerlink" title="CloseIcon"></a>CloseIcon</h3><h3 id="BackIcon"><a href="#BackIcon" class="headerlink" title="BackIcon"></a>BackIcon</h3><h3 id="SearchIcon"><a href="#SearchIcon" class="headerlink" title="SearchIcon"></a>SearchIcon</h3><h3 id="MoreIcon"><a href="#MoreIcon" class="headerlink" title="MoreIcon"></a>MoreIcon</h3><h3 id="TouchableIcon"><a href="#TouchableIcon" class="headerlink" title="TouchableIcon"></a>TouchableIcon</h3><p>A touchable wrapper for &lt;Icon /&gt;</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+<p><code>accessibilityLabel</code> <em>string</em>  (required)</p>
+<p><code>disabled</code> <em>bool</em> </p>
+<p><code>style</code> <em>object</em> </p>
+</blockquote>
+<h2 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h2><hr>
+<h3 id="Image-1"><a href="#Image-1" class="headerlink" title="Image"></a>Image</h3><p>Fade-in an image when it loads.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>fade</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>onLoadEnd</code> <em>func</em> </p>
+<p><code>height</code> <em>number</em> </p>
+<p><code>width</code> <em>number</em> </p>
+<p><code>circular</code> <em>bool</em><br>set the border radius to be fully round (given an equal height/width)<br><em>defaultValue: <code>false</code></em></p>
+<p><code>style</code> <em>any</em> </p>
+<p><code>source</code> <em>object</em>  (required)</p>
+<p><code>resizeMode</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;cover&#39;</code></em></p>
+<p><code>rounded</code> <em>union(number,bool)</em><br>the border radius of the image<br><em>defaultValue: <code>false</code></em></p>
+</blockquote>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><hr>
+<h3 id="Input-1"><a href="#Input-1" class="headerlink" title="Input"></a>Input</h3><p>A basic input<br> <strong>Composes</strong>: <a href="elements.html#Text">Text</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>tiny</code> <em>bool</em> </p>
+<p><code>large</code> <em>bool</em> </p>
+<p><code>small</code> <em>bool</em> </p>
+<p><code>medium</code> <em>bool</em> </p>
+<p><code>giant</code> <em>bool</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+<p><code>placeholderTextColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;#888&#39;</code></em></p>
+</blockquote>
+<h2 id="Nav"><a href="#Nav" class="headerlink" title="Nav"></a>Nav</h2><hr>
+<h3 id="NavBar"><a href="#NavBar" class="headerlink" title="NavBar"></a>NavBar</h3><p>Static navigation bar that mimics that foundwithin ReactNative. To be used when you want a staticrepresentation of the NavBar, without transitions.<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a>, <a href="elements.html#NavTitle">NavTitle</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>title</code> <em>string</em> </p>
+<p><code>LeftButton</code> <em>node</em> </p>
+<p><code>RightButton</code> <em>node</em> </p>
+<p><code>style</code> <em>any</em> </p>
+<p><code>transparent</code> <em>bool</em> </p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><code>titleColor</code> <em>string</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="NavIconContainer"><a href="#NavIconContainer" class="headerlink" title="NavIconContainer"></a>NavIconContainer</h3><p>A wrapper for &lt;Icon /&gt; that positions it correctlyin a navigation bar.</p>
+<p><strong>Props</strong></p>
+<h3 id="NavTitle"><a href="#NavTitle" class="headerlink" title="NavTitle"></a>NavTitle</h3><p>Renders text stylized for the Navigation Bar title.On iOS it composes PrimaryText.On Android, it composes LargeText.<br> <strong>Composes</strong>: <a href="elements.html#Text">Text</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>label</code> <em>string</em> </p>
+<p><code>color</code> <em>string</em> </p>
+<p><code>style</code> <em>any</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="NavTouchableIcon"><a href="#NavTouchableIcon" class="headerlink" title="NavTouchableIcon"></a>NavTouchableIcon</h3><p>Wrap Icon components within NavTouchableIcon for displayof an Icon in the Navigation bar. You may need to fiddlearound with the sizing of the Icon on android and ios devicesto ensure that they look right.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+</blockquote>
+<h3 id="NavTouchableText"><a href="#NavTouchableText" class="headerlink" title="NavTouchableText"></a>NavTouchableText</h3><p>Makes a touchable text component for the NavBar. Typicallyused on iOS.<br> <strong>Composes</strong>: <a href="elements.html#TextBase">TextBase</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>disabled</code> <em>bool</em> </p>
+<p><code>color</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;primary&#39;</code></em></p>
+<p><code>bold</code> <em>bool</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h2 id="Pages"><a href="#Pages" class="headerlink" title="Pages"></a>Pages</h2><hr>
+<h3 id="ErrorPage"><a href="#ErrorPage" class="headerlink" title="ErrorPage"></a>ErrorPage</h3><p>Display an error, with messages and actions dependingupon the user state. Particularly useful with Relay.Rendererwhen an error state and retry function are provided.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>retry</code> <em>func</em>  (required)</p>
+<p><code>message</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;Hmm, loading appears to be taking a while.&#39;</code></em></p>
+<p><code>detailMessage</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;It\&#39;s possible that our server are under heavy load, &#39; +
+  &#39;or that your internet connection is slow. Please try again.&#39;</code></em></p>
+<p><code>offlineMessage</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;Please ensure that you are connected to the internet.&#39;</code></em></p>
+<p><code>style</code> <em>any</em> </p>
+<p><code>isOffline</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="Loader"><a href="#Loader" class="headerlink" title="Loader"></a>Loader</h3><p>Displays a loading indicator, and on iOS an optionalloading message.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>isLoading</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>large</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>color</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;gray&#39;</code></em></p>
+<p><code>showText</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>loadingText</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;Loading...&#39;</code></em></p>
+<p><code>alignTop</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h2 id="Popup"><a href="#Popup" class="headerlink" title="Popup"></a>Popup</h2><hr>
+<h3 id="Popup-1"><a href="#Popup-1" class="headerlink" title="Popup"></a>Popup</h3><p><strong>Props</strong></p>
+<blockquote>
+<p><code>showing</code> <em>bool</em>  (required)</p>
+<p><code>onRequestClose</code> <em>func</em>  (required)</p>
+<p><code>autoDismiss</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>showCancel</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;rgba(0,0,0,0.6)&#39;</code></em></p>
+<p><code>modalProps</code> <em>object</em> </p>
+<p><em>defaultValue: <code>{}</code></em></p>
+<p><code>customHeader</code> <em>node</em> </p>
+<p><code>options</code> <em>union(arrayOf,arrayOf)</em>  (required)</p>
+</blockquote>
+<h2 id="Row"><a href="#Row" class="headerlink" title="Row"></a>Row</h2><hr>
+<h3 id="Divider"><a href="#Divider" class="headerlink" title="Divider"></a>Divider</h3><p>A simple component used to separate rows, with anoptional inset margin on the left or right.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>inset</code> <em>number</em> </p>
+<p><em>defaultValue: <code>0</code></em></p>
+<p><code>insetRight</code> <em>number</em> </p>
+<p><em>defaultValue: <code>0</code></em></p>
+<p><code>inverted</code> <em>bool</em><br>Use the inverted colour *</p>
+</blockquote>
+<h3 id="SectionHeader"><a href="#SectionHeader" class="headerlink" title="SectionHeader"></a>SectionHeader</h3><p>SectionHeader is used for rendering a section header within a ListView.Supply text as the child.<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;gray&#39;</code></em></p>
+</blockquote>
+<h3 id="TouchableRow"><a href="#TouchableRow" class="headerlink" title="TouchableRow"></a>TouchableRow</h3><p>The basic RowCell for use within ListView. It displaysan image, primary text, secondary text, a value,and an arrow right icon if the respective props arespecified.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#TouchableRowCell">TouchableRowCell</a>, <a href="elements.html#Image">Image</a>, <a href="elements.html#Text">Text</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>primaryText</code> <em>union(string,node)</em> </p>
+<p><code>secondaryText</code> <em>union(string,node)</em> </p>
+<p><code>value</code> <em>union(string,node)</em><br>A value attribute of the cell, to appear on the right</p>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+<p><code>image</code> <em>union(object,node)</em><br>An thumbnail to be displayed on the left of the cell</p>
+<p><code>height</code> <em>number</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+<p><code>showMore</code> <em>bool</em><br>Displays a right arrow on the right hand side of the cell</p>
+</blockquote>
+<h3 id="TouchableRowCell"><a href="#TouchableRowCell" class="headerlink" title="TouchableRowCell"></a>TouchableRowCell</h3><p>A touchable row cell container, typically usedrendering rows in a &lt;ListView&gt;.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>onPress</code> <em>func</em> </p>
+<p><code>disabled</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>highlighted</code> <em>func</em> </p>
+<p><em>defaultValue: <code>function noop () {}</code></em></p>
+<p><code>showMore</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>showMoreProps</code> <em>object</em> </p>
+<p><code>underlayColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;rgba(0,0,0,0.1)&#39;</code></em></p>
+<p><code>height</code> <em>number</em> </p>
+</blockquote>
+<h2 id="RowInput"><a href="#RowInput" class="headerlink" title="RowInput"></a>RowInput</h2><hr>
+<h3 id="InputAddRow"><a href="#InputAddRow" class="headerlink" title="InputAddRow"></a>InputAddRow</h3><p>An InputTouchable with a plus icon. This is typically usedwithin the context of an InputGroup consisting ofremovable inputs.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#InputTouchable">InputTouchable</a>, <a href="elements.html#Icon">Icon</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+<p><code>label</code> <em>string</em>  (required)</p>
+<p><code>disabled</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputDatePicker"><a href="#InputDatePicker" class="headerlink" title="InputDatePicker"></a>InputDatePicker</h3><p>InputDatePicker a cross-platform InputRow inputtingdates.On iOS devices, the row examples to revealDatePickerIOS when selected. The humanized date shouldbe supplied as the value prop, and it should beupdated when the value of the date-picker changes.On Anroid, the date-picker prompts the user to selecta date in a modal menu.<strong>Platforms</strong>:  ios, android<br> <strong>Composes</strong>: <a href="elements.html#InputTouchable">InputTouchable</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>expanded</code> <em>bool</em>  (required)</p>
+<p><code>onToggleExpansion</code> <em>func</em>  (required)<br>function called to toggle the visibility of the date-picker. (iOS only) *</p>
+<p><code>value</code> <em>string</em><br>the currently selected date to be displayed in collapsed row. *</p>
+<p><code>maxDate</code> <em>string</em> </p>
+<p><code>minDate</code> <em>string</em> </p>
+<p><code>label</code> <em>string</em> </p>
+<p><code>mode</code> <em>string</em> </p>
+<p><code>date</code> <em>object</em>  (required)</p>
+<p><code>onDateChange</code> <em>func</em>  (required)</p>
+<p><code>editable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputDatePickerWeb"><a href="#InputDatePickerWeb" class="headerlink" title="InputDatePickerWeb"></a>InputDatePickerWeb</h3><h3 id="InputExpandable"><a href="#InputExpandable" class="headerlink" title="InputExpandable"></a>InputExpandable</h3><p>An input row field that expands when pressed to reveal itschildren.<strong>Platforms</strong>:  ios, android, web</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>expanded</code> <em>bool</em>  (required)</p>
+<p><code>Row</code> <em>node</em>  (required)</p>
+</blockquote>
+<h3 id="InputGroup"><a href="#InputGroup" class="headerlink" title="InputGroup"></a>InputGroup</h3><p>Wrapping components with InputGroup gives you theoption of giving Inputs dividing borders, dividingborders with an inset, a top border (with a unique inset value),a bottom border (with a unique inset value), shared backgroundcolours, margins, and a label. You could supply your ownchild components, too.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a>, <a href="elements.html#Divider">Divider</a>, <a href="elements.html#SectionHeader">SectionHeader</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>style</code> <em>object</em> </p>
+<p><code>inset</code> <em>number</em><br>left margin inset for the divider border (excluding top and bottom)<br><em>defaultValue: <code>0</code></em></p>
+<p><code>showTopBorder</code> <em>bool</em><br>show the top border<br><em>defaultValue: <code>true</code></em></p>
+<p><code>showBottomBorder</code> <em>bool</em><br>show the bottom border<br><em>defaultValue: <code>true</code></em></p>
+<p><code>showBorder</code> <em>bool</em><br>whether to show the dividing border<br><em>defaultValue: <code>true</code></em></p>
+<p><code>topInset</code> <em>number</em><br>left margin inset for the top border<br><em>defaultValue: <code>0</code></em></p>
+<p><code>bottomInset</code> <em>number</em><br>left margin inset for the bottom border<br><em>defaultValue: <code>0</code></em></p>
+<p><code>label</code> <em>string</em><br>a label for the input group</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputHelpText"><a href="#InputHelpText" class="headerlink" title="InputHelpText"></a>InputHelpText</h3><p>InputHelpText is typically used after an InputGroup tooffer additional information about the above inputs. This isjust a simple wrapper around Text with some paddingprovided, and the text color set to light.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Text">Text</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputPicker"><a href="#InputPicker" class="headerlink" title="InputPicker"></a>InputPicker</h3><p>InputPicker provides a unified API for Android and iOSpicker rows.On iOS, when the user selects the picker row, the row expands toreveal the children. The value prop that appears alongsidethe right of the picker row will typically be a humanizedversion of the selected value in the picker.On Android, we display the picker as the row itself. Whenselected, the picker prompt will occur. A label isrendered above the picker. The value prop is ignored,since the Android picker already prints the value for us.<strong>Platforms</strong>:  ios, android<br> <strong>Composes</strong>: <a href="elements.html#InputTouchable">InputTouchable</a>, <a href="elements.html#InputExpandable">InputExpandable</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>onToggleExpansion</code> <em>func</em>  (required)<br>a function called when toggling the visibility of the picker. (iOS only)</p>
+<p><code>editable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>value</code> <em>string</em><br>the picker value displayed in the row. (iOS only)</p>
+<p><code>label</code> <em>string</em>  (required)<br>the label for the picker *</p>
+<p><code>expanded</code> <em>bool</em><br>controls whether the picker is visible. (iOS only)</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+</blockquote>
+<h3 id="RowActions"><a href="#RowActions" class="headerlink" title="RowActions"></a>RowActions</h3><p>A collection of RowActions to be displayed behinda revealing row.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>style</code> <em>any</em> </p>
+</blockquote>
+<h3 id="RowAction"><a href="#RowAction" class="headerlink" title="RowAction"></a>RowAction</h3><p>A row action that hide underneath the row, suchas &#039;Delete&#039;, or &#039;Edit&#039;, etc.</p>
+<p><strong>Props</strong></p>
+<h3 id="RemoveButton"><a href="#RemoveButton" class="headerlink" title="RemoveButton"></a>RemoveButton</h3><p>Remove button</p>
+<h3 id="InputRow"><a href="#InputRow" class="headerlink" title="InputRow"></a>InputRow</h3><p>An Input field with a lot of added functionality. You&#039;d typicallywant to wrap this within an InputGroup.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#RevealingRow">RevealingRow</a>, <a href="elements.html#InputRowCell">InputRowCell</a>, <a href="elements.html#RemoveButton">RemoveButton</a>, <a href="elements.html#Input">Input</a>, <a href="elements.html#Base">Base</a>, <a href="elements.html#Text">Text</a>, <a href="elements.html#RowAction">RowAction</a>, <a href="elements.html#RowActions">RowActions</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>label</code> <em>string</em> </p>
+<p><code>autoFocus</code> <em>bool</em> </p>
+<p><code>removable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>placeholder</code> <em>string</em> </p>
+<p><code>vertical</code> <em>bool</em> </p>
+<p><code>onSelectLabel</code> <em>func</em> </p>
+<p><code>onChangeText</code> <em>func</em>  (required)</p>
+<p><code>value</code> <em>union(string,node)</em> </p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;white&#39;</code></em></p>
+<p><code>editable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>labelWidth</code> <em>number</em> </p>
+<p><code>verticalHeight</code> <em>number</em> </p>
+<p><em>defaultValue: <code>80</code></em></p>
+<p><code>onRequestRemove</code> <em>func</em> </p>
+<p><code>height</code> <em>number</em> </p>
+<p><em>defaultValue: <code>50</code></em></p>
+<p><code>icon</code> <em>node</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+<p><code>condensed</code> <em>bool</em> </p>
+<p><code>multiline</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputRowCell"><a href="#InputRowCell" class="headerlink" title="InputRowCell"></a>InputRowCell</h3><p>A simple component that is used to wrap various Input Rows.It provides a fixed height, and other default styles.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>height</code> <em>number</em> </p>
+<p><em>defaultValue: <code>50</code></em></p>
+</blockquote>
+<h3 id="RevealOption"><a href="#RevealOption" class="headerlink" title="RevealOption"></a>RevealOption</h3><p>Input Option</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;midgray&#39;</code></em></p>
+<p><code>label</code> <em>string</em>  (required)</p>
+<p><code>textColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;white&#39;</code></em></p>
+</blockquote>
+<h3 id="InputRowRevealOptions"><a href="#InputRowRevealOptions" class="headerlink" title="InputRowRevealOptions"></a>InputRowRevealOptions</h3><p>Revealable row options container. Typically usedto delete a row.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>height</code> <em>number</em> </p>
+<p><em>defaultValue: <code>40</code></em></p>
+<p><code>options</code> <em>array</em> </p>
+</blockquote>
+<h3 id="InputToggle"><a href="#InputToggle" class="headerlink" title="InputToggle"></a>InputToggle</h3><p>A row with a label and switch, allowingthe user to toggle a boolean value.<strong>Platforms</strong>:  ios, android<br> <strong>Composes</strong>: <a href="elements.html#InputRowCell">InputRowCell</a>, <a href="elements.html#Switch">Switch</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>style</code> <em>any</em> </p>
+<p><code>value</code> <em>bool</em>  (required)</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;transparent&#39;</code></em></p>
+<p><code>label</code> <em>string</em>  (required)</p>
+<p><code>onValueChange</code> <em>func</em>  (required)</p>
+<p><code>editable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>switchProps</code> <em>object</em> </p>
+<p><code>onTintColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;success&#39;</code></em></p>
+</blockquote>
+<h3 id="InputTouchable"><a href="#InputTouchable" class="headerlink" title="InputTouchable"></a>InputTouchable</h3><p>An InputTouchable is typically used within the context of anInputGroup, when you want the user to select a value from anotherListView, PopupMenu, etc. It&#039;s a very simple wrapper aroundTouchableRow, to make it play nicely with other Input components.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#TouchableRow">TouchableRow</a>, <a href="elements.html#Text">Text</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;white&#39;</code></em></p>
+<p><code>label</code> <em>union(string,node)</em>  (required)</p>
+<p><code>icon</code> <em>node</em> </p>
+<p><code>image</code> <em>object</em> </p>
+<p><code>value</code> <em>union(string,node)</em> </p>
+<p><code>showMore</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>condensed</code> <em>bool</em> </p>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+<p><code>disabled</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>labelColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;default&#39;</code></em></p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="RevealingRow"><a href="#RevealingRow" class="headerlink" title="RevealingRow"></a>RevealingRow</h3><p>ReavealingRow enables a row to have revealed optionsthat appear, for instance, when editing it.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>showingOptions</code> <em>bool</em>  (required)</p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>revealedContent</code> <em>node</em>  (required)</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;white&#39;</code></em></p>
+</blockquote>
+<h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><hr>
+<h3 id="Text-1"><a href="#Text-1" class="headerlink" title="Text"></a>Text</h3><p>Basic Text Component that provides shorthands for sizing,lineHeight, and fontWeights.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>tiny</code> <em>bool</em> </p>
+<p><code>small</code> <em>bool</em> </p>
+<p><code>medium</code> <em>bool</em> </p>
+<p><code>large</code> <em>bool</em> </p>
+<p><code>giant</code> <em>bool</em> </p>
+<p><code>thin</code> <em>bool</em> </p>
+<p><code>thick</code> <em>bool</em> </p>
+<p><code>bold</code> <em>bool</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+<p><code>lineHeight</code> <em>number</em> </p>
+</blockquote>
+
+    </div>
+  </div>
+
+  <div class="pagination">
+    <div class="content-wrapper">
+      
+      
+        <a class="link primary prev"
+          href="index.html">
+          <span class="icon-arrow-left-alt"></span>
+          <span class="subtitle-pagination">Previous</span>
+          Getting Started
+        </a>
+      
+      
+        <a class="link primary next"
+          href="components/Base.html">
+          <span class="subtitle-pagination">Next</span>
+          Base
+          <span class="icon-arrow-right-alt"></span>
+        </a>
+      
+    </div>
+  </div>
+
+  <div class="github">
+    <a class="link tertiary " href="https://github.com/panza-org/panza-docs/tree/master/source/components.md" target="_blank">
+      <span class="icon-github"></span>Edit on GitHub</a>
+  </div>
+
+  
+</div>
+
+    <script src="/script/smooth-scroll.min.js"></script>
+    <script src="/script/main.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+    <script>
+      // nectar ninja
+      (function(){
+        var handle = '@meteorjs';
+        var a = document.createElement('script');
+        var m = document.getElementsByTagName('script')[0];
+        a.async = 1;
+        a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+        m.parentNode.insertBefore(a, m);
+      })();
+
+     
+      
+
+      // search box
+      
+
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Basic -->
+    <title>RowInput | Panza Docs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/logo/favicon.png" sizes="16x16 32x32 64x64">
+
+    <!-- Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://panza.js.org">
+    <meta property="og:title" content="RowInput | Panza Docs">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_image_large">
+    <meta name="twitter:site" content="@panza">
+    <meta name="twitter:title" content="RowInput | Panza Docs">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- Misc -->
+    <meta name="google-site-verification" content="" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body class="">
+    
+
+<div class="nav dark">
+  <div class="nav-group">
+    <div class="nav-item">
+      <span class="js-sidebar-toggle show-mobile">
+        <span class="icon-menu"></span>
+      </span>
+      <a class="logo show-desktop" href="http://panza.js.org" title="Panza Docs" target=_new >
+        <img src="/logo/logo-text.svg" alt="Panza Docs"/>
+        <span>Documentation</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="center-wrapper show-mobile">
+    <img src="/logo/logo-text.svg" alt="Panza Docs"/>
+    <div>Documentation</div>
+  </div>
+
+  <div class="nav-group right">
+    
+    
+      <div class="nav-item show-desktop active">
+        <a class="link" href="http://panza.js.org"  >
+          <span>Docs</span>
+        </a>
+      </div>
+    
+      <div class="nav-item show-desktop ">
+        <a class="link" href="https://github.com/panza-org/panza" target=_new >
+          <span>Github</span>
+        </a>
+      </div>
+    
+  </div>
+
+  
+
+</div>
+
+<div class="sidebar">
+  <div class="panel">
+    <div class="panel-item">
+      <a class="" href="http://panza.js.org" title="Panza Docs" target=_new >
+        <span>Panza Docs</span>
+      </a>
+    </div>
+    
+      <div class="panel-item active"">
+        <a class="" href="http://panza.js.org"  >
+          <span>Docs</span>
+        </a>
+      </div>
+    
+      <div class="panel-item "">
+        <a class="" href="https://github.com/panza-org/panza" target=_new >
+          <span>Github</span>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="sidebar-content">
+    <div class="topcap">
+      <span class="title-sidebar">Panza Docs</span>
+      
+    </div>
+
+    
+
+    <ul class="toc">
+      
+        <li>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc ">
+                <a href="../index.html" class="sidebar-link ">
+                  <span>Getting Started</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+        <li>
+          
+            <div class="heading-toc">Component API</div>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc ">
+                <a href="Base.html" class="sidebar-link ">
+                  <span>Base</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+  <div class="content-wrapper">
+    <div class="header-content">
+      <h1 class="title-page">RowInput</h1>
+      
+
+      <div class="page-actions">
+        <div class="actions-group">
+          <a class="btn primary small round lowercase" href="https://github.com/panza-org/panza-docs/tree/master/source/components/RowInput.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="document-formatting">
+      <h3 id="InputAddRow"><a href="#InputAddRow" class="headerlink" title="InputAddRow"></a>InputAddRow</h3><p>An InputTouchable with a plus icon. This is typically usedwithin the context of an InputGroup consisting ofremovable inputs.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#InputTouchable">InputTouchable</a>, <a href="elements.html#Icon">Icon</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+<p><code>label</code> <em>string</em>  (required)</p>
+<p><code>disabled</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputDatePicker"><a href="#InputDatePicker" class="headerlink" title="InputDatePicker"></a>InputDatePicker</h3><p>InputDatePicker a cross-platform InputRow inputtingdates.On iOS devices, the row examples to revealDatePickerIOS when selected. The humanized date shouldbe supplied as the value prop, and it should beupdated when the value of the date-picker changes.On Anroid, the date-picker prompts the user to selecta date in a modal menu.<strong>Platforms</strong>:  ios, android<br> <strong>Composes</strong>: <a href="elements.html#InputTouchable">InputTouchable</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>expanded</code> <em>bool</em>  (required)</p>
+<p><code>onToggleExpansion</code> <em>func</em>  (required)<br>function called to toggle the visibility of the date-picker. (iOS only) *</p>
+<p><code>value</code> <em>string</em><br>the currently selected date to be displayed in collapsed row. *</p>
+<p><code>maxDate</code> <em>string</em> </p>
+<p><code>minDate</code> <em>string</em> </p>
+<p><code>label</code> <em>string</em> </p>
+<p><code>mode</code> <em>string</em> </p>
+<p><code>date</code> <em>object</em>  (required)</p>
+<p><code>onDateChange</code> <em>func</em>  (required)</p>
+<p><code>editable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputDatePickerWeb"><a href="#InputDatePickerWeb" class="headerlink" title="InputDatePickerWeb"></a>InputDatePickerWeb</h3><h3 id="InputExpandable"><a href="#InputExpandable" class="headerlink" title="InputExpandable"></a>InputExpandable</h3><p>An input row field that expands when pressed to reveal itschildren.<strong>Platforms</strong>:  ios, android, web</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>expanded</code> <em>bool</em>  (required)</p>
+<p><code>Row</code> <em>node</em>  (required)</p>
+</blockquote>
+<h3 id="InputGroup"><a href="#InputGroup" class="headerlink" title="InputGroup"></a>InputGroup</h3><p>Wrapping components with InputGroup gives you theoption of giving Inputs dividing borders, dividingborders with an inset, a top border (with a unique inset value),a bottom border (with a unique inset value), shared backgroundcolours, margins, and a label. You could supply your ownchild components, too.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a>, <a href="elements.html#Divider">Divider</a>, <a href="elements.html#SectionHeader">SectionHeader</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>style</code> <em>object</em> </p>
+<p><code>inset</code> <em>number</em><br>left margin inset for the divider border (excluding top and bottom)<br><em>defaultValue: <code>0</code></em></p>
+<p><code>showTopBorder</code> <em>bool</em><br>show the top border<br><em>defaultValue: <code>true</code></em></p>
+<p><code>showBottomBorder</code> <em>bool</em><br>show the bottom border<br><em>defaultValue: <code>true</code></em></p>
+<p><code>showBorder</code> <em>bool</em><br>whether to show the dividing border<br><em>defaultValue: <code>true</code></em></p>
+<p><code>topInset</code> <em>number</em><br>left margin inset for the top border<br><em>defaultValue: <code>0</code></em></p>
+<p><code>bottomInset</code> <em>number</em><br>left margin inset for the bottom border<br><em>defaultValue: <code>0</code></em></p>
+<p><code>label</code> <em>string</em><br>a label for the input group</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputHelpText"><a href="#InputHelpText" class="headerlink" title="InputHelpText"></a>InputHelpText</h3><p>InputHelpText is typically used after an InputGroup tooffer additional information about the above inputs. This isjust a simple wrapper around Text with some paddingprovided, and the text color set to light.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Text">Text</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputPicker"><a href="#InputPicker" class="headerlink" title="InputPicker"></a>InputPicker</h3><p>InputPicker provides a unified API for Android and iOSpicker rows.On iOS, when the user selects the picker row, the row expands toreveal the children. The value prop that appears alongsidethe right of the picker row will typically be a humanizedversion of the selected value in the picker.On Android, we display the picker as the row itself. Whenselected, the picker prompt will occur. A label isrendered above the picker. The value prop is ignored,since the Android picker already prints the value for us.<strong>Platforms</strong>:  ios, android<br> <strong>Composes</strong>: <a href="elements.html#InputTouchable">InputTouchable</a>, <a href="elements.html#InputExpandable">InputExpandable</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>onToggleExpansion</code> <em>func</em>  (required)<br>a function called when toggling the visibility of the picker. (iOS only)</p>
+<p><code>editable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>value</code> <em>string</em><br>the picker value displayed in the row. (iOS only)</p>
+<p><code>label</code> <em>string</em>  (required)<br>the label for the picker *</p>
+<p><code>expanded</code> <em>bool</em><br>controls whether the picker is visible. (iOS only)</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+</blockquote>
+<h3 id="RowActions"><a href="#RowActions" class="headerlink" title="RowActions"></a>RowActions</h3><p>A collection of RowActions to be displayed behinda revealing row.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>style</code> <em>any</em> </p>
+</blockquote>
+<h3 id="RowAction"><a href="#RowAction" class="headerlink" title="RowAction"></a>RowAction</h3><p>A row action that hide underneath the row, suchas &#039;Delete&#039;, or &#039;Edit&#039;, etc.</p>
+<p><strong>Props</strong></p>
+<h3 id="RemoveButton"><a href="#RemoveButton" class="headerlink" title="RemoveButton"></a>RemoveButton</h3><p>Remove button</p>
+<h3 id="InputRow"><a href="#InputRow" class="headerlink" title="InputRow"></a>InputRow</h3><p>An Input field with a lot of added functionality. You&#039;d typicallywant to wrap this within an InputGroup.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#RevealingRow">RevealingRow</a>, <a href="elements.html#InputRowCell">InputRowCell</a>, <a href="elements.html#RemoveButton">RemoveButton</a>, <a href="elements.html#Input">Input</a>, <a href="elements.html#Base">Base</a>, <a href="elements.html#Text">Text</a>, <a href="elements.html#RowAction">RowAction</a>, <a href="elements.html#RowActions">RowActions</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>label</code> <em>string</em> </p>
+<p><code>autoFocus</code> <em>bool</em> </p>
+<p><code>removable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>placeholder</code> <em>string</em> </p>
+<p><code>vertical</code> <em>bool</em> </p>
+<p><code>onSelectLabel</code> <em>func</em> </p>
+<p><code>onChangeText</code> <em>func</em>  (required)</p>
+<p><code>value</code> <em>union(string,node)</em> </p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;white&#39;</code></em></p>
+<p><code>editable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>labelWidth</code> <em>number</em> </p>
+<p><code>verticalHeight</code> <em>number</em> </p>
+<p><em>defaultValue: <code>80</code></em></p>
+<p><code>onRequestRemove</code> <em>func</em> </p>
+<p><code>height</code> <em>number</em> </p>
+<p><em>defaultValue: <code>50</code></em></p>
+<p><code>icon</code> <em>node</em> </p>
+<p><code>inverted</code> <em>bool</em> </p>
+<p><code>condensed</code> <em>bool</em> </p>
+<p><code>multiline</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="InputRowCell"><a href="#InputRowCell" class="headerlink" title="InputRowCell"></a>InputRowCell</h3><p>A simple component that is used to wrap various Input Rows.It provides a fixed height, and other default styles.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>height</code> <em>number</em> </p>
+<p><em>defaultValue: <code>50</code></em></p>
+</blockquote>
+<h3 id="RevealOption"><a href="#RevealOption" class="headerlink" title="RevealOption"></a>RevealOption</h3><p>Input Option</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;midgray&#39;</code></em></p>
+<p><code>label</code> <em>string</em>  (required)</p>
+<p><code>textColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;white&#39;</code></em></p>
+</blockquote>
+<h3 id="InputRowRevealOptions"><a href="#InputRowRevealOptions" class="headerlink" title="InputRowRevealOptions"></a>InputRowRevealOptions</h3><p>Revealable row options container. Typically usedto delete a row.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>height</code> <em>number</em> </p>
+<p><em>defaultValue: <code>40</code></em></p>
+<p><code>options</code> <em>array</em> </p>
+</blockquote>
+<h3 id="InputToggle"><a href="#InputToggle" class="headerlink" title="InputToggle"></a>InputToggle</h3><p>A row with a label and switch, allowingthe user to toggle a boolean value.<strong>Platforms</strong>:  ios, android<br> <strong>Composes</strong>: <a href="elements.html#InputRowCell">InputRowCell</a>, <a href="elements.html#Switch">Switch</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>style</code> <em>any</em> </p>
+<p><code>value</code> <em>bool</em>  (required)</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;transparent&#39;</code></em></p>
+<p><code>label</code> <em>string</em>  (required)</p>
+<p><code>onValueChange</code> <em>func</em>  (required)</p>
+<p><code>editable</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>true</code></em></p>
+<p><code>switchProps</code> <em>object</em> </p>
+<p><code>onTintColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;success&#39;</code></em></p>
+</blockquote>
+<h3 id="InputTouchable"><a href="#InputTouchable" class="headerlink" title="InputTouchable"></a>InputTouchable</h3><p>An InputTouchable is typically used within the context of anInputGroup, when you want the user to select a value from anotherListView, PopupMenu, etc. It&#039;s a very simple wrapper aroundTouchableRow, to make it play nicely with other Input components.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#TouchableRow">TouchableRow</a>, <a href="elements.html#Text">Text</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;white&#39;</code></em></p>
+<p><code>label</code> <em>union(string,node)</em>  (required)</p>
+<p><code>icon</code> <em>node</em> </p>
+<p><code>image</code> <em>object</em> </p>
+<p><code>value</code> <em>union(string,node)</em> </p>
+<p><code>showMore</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>condensed</code> <em>bool</em> </p>
+<p><code>onPress</code> <em>func</em>  (required)</p>
+<p><code>disabled</code> <em>bool</em> </p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>labelColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;default&#39;</code></em></p>
+<p><code>inverted</code> <em>bool</em> </p>
+</blockquote>
+<h3 id="RevealingRow"><a href="#RevealingRow" class="headerlink" title="RevealingRow"></a>RevealingRow</h3><p>ReavealingRow enables a row to have revealed optionsthat appear, for instance, when editing it.<strong>Platforms</strong>:  ios, android, web<br> <strong>Composes</strong>: <a href="elements.html#Base">Base</a> </p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>showingOptions</code> <em>bool</em>  (required)</p>
+<p><em>defaultValue: <code>false</code></em></p>
+<p><code>revealedContent</code> <em>node</em>  (required)</p>
+<p><code>backgroundColor</code> <em>string</em> </p>
+<p><em>defaultValue: <code>&#39;white&#39;</code></em></p>
+</blockquote>
+
+    </div>
+  </div>
+
+  <div class="pagination">
+    <div class="content-wrapper">
+      
+      
+        <a class="link primary prev"
+          href="Row.html">
+          <span class="icon-arrow-left-alt"></span>
+          <span class="subtitle-pagination">Previous</span>
+          Row
+        </a>
+      
+      
+        <a class="link primary next"
+          href="Text.html">
+          <span class="subtitle-pagination">Next</span>
+          Text
+          <span class="icon-arrow-right-alt"></span>
+        </a>
+      
+    </div>
+  </div>
+
+  <div class="github">
+    <a class="link tertiary " href="https://github.com/panza-org/panza-docs/tree/master/source/components/RowInput.md" target="_blank">
+      <span class="icon-github"></span>Edit on GitHub</a>
+  </div>
+
+  
+</div>
+
+    <script src="/script/smooth-scroll.min.js"></script>
+    <script src="/script/main.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+    <script>
+      // nectar ninja
+      (function(){
+        var handle = '@meteorjs';
+        var a = document.createElement('script');
+        var m = document.getElementsByTagName('script')[0];
+        a.async = 1;
+        a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+        m.parentNode.insertBefore(a, m);
+      })();
+
+     
+      
+
+      // search box
+      
+
+      
+    </script>
+  </body>
+</html>

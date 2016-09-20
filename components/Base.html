@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Basic -->
+    <title>Base | Panza Docs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/logo/favicon.png" sizes="16x16 32x32 64x64">
+
+    <!-- Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://panza.js.org">
+    <meta property="og:title" content="Base | Panza Docs">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_image_large">
+    <meta name="twitter:site" content="@panza">
+    <meta name="twitter:title" content="Base | Panza Docs">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- Misc -->
+    <meta name="google-site-verification" content="" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body class="">
+    
+
+<div class="nav dark">
+  <div class="nav-group">
+    <div class="nav-item">
+      <span class="js-sidebar-toggle show-mobile">
+        <span class="icon-menu"></span>
+      </span>
+      <a class="logo show-desktop" href="http://panza.js.org" title="Panza Docs" target=_new >
+        <img src="/logo/logo-text.svg" alt="Panza Docs"/>
+        <span>Documentation</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="center-wrapper show-mobile">
+    <img src="/logo/logo-text.svg" alt="Panza Docs"/>
+    <div>Documentation</div>
+  </div>
+
+  <div class="nav-group right">
+    
+    
+      <div class="nav-item show-desktop active">
+        <a class="link" href="http://panza.js.org"  >
+          <span>Docs</span>
+        </a>
+      </div>
+    
+      <div class="nav-item show-desktop ">
+        <a class="link" href="https://github.com/panza-org/panza" target=_new >
+          <span>Github</span>
+        </a>
+      </div>
+    
+  </div>
+
+  
+
+</div>
+
+<div class="sidebar">
+  <div class="panel">
+    <div class="panel-item">
+      <a class="" href="http://panza.js.org" title="Panza Docs" target=_new >
+        <span>Panza Docs</span>
+      </a>
+    </div>
+    
+      <div class="panel-item active"">
+        <a class="" href="http://panza.js.org"  >
+          <span>Docs</span>
+        </a>
+      </div>
+    
+      <div class="panel-item "">
+        <a class="" href="https://github.com/panza-org/panza" target=_new >
+          <span>Github</span>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="sidebar-content">
+    <div class="topcap">
+      <span class="title-sidebar">Panza Docs</span>
+      
+    </div>
+
+    
+
+    <ul class="toc">
+      
+        <li>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc ">
+                <a href="../index.html" class="sidebar-link ">
+                  <span>Getting Started</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+        <li>
+          
+            <div class="heading-toc">Component API</div>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc  current">
+                <a href="" class="sidebar-link  current">
+                  <span>Base</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+  <div class="content-wrapper">
+    <div class="header-content">
+      <h1 class="title-page">Base</h1>
+      
+
+      <div class="page-actions">
+        <div class="actions-group">
+          <a class="btn primary small round lowercase" href="https://github.com/panza-org/panza-docs/tree/master/source/components/Base.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="document-formatting">
+      <h3 id="Base"><a href="#Base" class="headerlink" title="Base"></a>Base</h3><p>A general purpose component that converts props into stylesdefined by our theme. It&#039;s heavily inspired by the Basecomponent provided by <a href="https://github.com/jxnblk/rebass" target="_blank" rel="external">rebass</a>.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>Component</code> <em>any</em><br>Custom Component</p>
+<p><code>baseStyle</code> <em>any</em><br>The base style will be supplanted by style props, or regular style properties.</p>
+<p><code>style</code> <em>any</em><br>Regular style attribute</p>
+<p><code>underlayColor</code> <em>string</em><br>Underlay color. Use ‘darken’ to automatically darken the backgroundColor.</p>
+<p><code>m</code> <em>enum(0,1,2,3,4)</em><br>Margin based on the configured scale</p>
+<p><code>mt</code> <em>enum(0,1,2,3,4)</em><br>Margin top based on the configured scale</p>
+<p><code>mr</code> <em>enum(0,1,2,3,4)</em><br>Margin right based on the configured scale</p>
+<p><code>mb</code> <em>enum(0,1,2,3,4)</em><br>Margin bottom based on the configured scale</p>
+<p><code>ml</code> <em>enum(0,1,2,3,4)</em><br>Margin left based on the configured scale</p>
+<p><code>mx</code> <em>enum(0,1,2,3,4)</em><br>Margin x-axis based on the configured scale</p>
+<p><code>my</code> <em>enum(0,1,2,3,4)</em><br>Margin y-asix based on the configured scale</p>
+<p><code>p</code> <em>enum(0,1,2,3,4)</em><br>Padding based on the configured scale</p>
+<p><code>pt</code> <em>enum(0,1,2,3,4)</em><br>Padding top based on the configured scale</p>
+<p><code>pr</code> <em>enum(0,1,2,3,4)</em><br>Padding right based on the configured scale</p>
+<p><code>pb</code> <em>enum(0,1,2,3,4)</em><br>Padding bottom based on the configured scale</p>
+<p><code>pl</code> <em>enum(0,1,2,3,4)</em><br>Padding left based on the configured scale</p>
+<p><code>px</code> <em>enum(0,1,2,3,4)</em><br>Padding x-axis based on the configured scale</p>
+<p><code>py</code> <em>enum(0,1,2,3,4)</em><br>Padding y-axis based on the configured scale</p>
+<p><code>backgroundColor</code> <em>string</em><br>Background color.</p>
+<p><code>rounded</code> <em>union(bool,number)</em><br>Border radius</p>
+<p><code>borderColor</code> <em>string</em><br>Border color</p>
+<p><code>flex</code> <em>number</em><br>Flex property</p>
+<p><code>wrap</code> <em>bool</em><br>Flex-wrap property</p>
+<p><code>column</code> <em>bool</em><br>Set the flex-direction to column</p>
+<p><code>row</code> <em>bool</em><br>Set the flex-direction to row</p>
+<p><code>align</code> <em>string</em><br>Align-items property</p>
+<p><code>justify</code> <em>string</em><br>Justify-content property</p>
+<p><code>height</code> <em>number</em><br>The height of the element</p>
+<p><code>width</code> <em>number</em><br>The width of the element</p>
+</blockquote>
+<h3 id="TextBase"><a href="#TextBase" class="headerlink" title="TextBase"></a>TextBase</h3><p>A general purpose text component whichconverts props into styles defined in the configuration.Unlike Base, TextBase supports special Text props.</p>
+<p><strong>Props</strong></p>
+<blockquote>
+<p><code>Component</code> <em>any</em> </p>
+<p><code>style</code> <em>any</em> </p>
+<p><code>baseStyle</code> <em>any</em> </p>
+<p><code>fontSize</code> <em>enum(0,1,2,3,4,5,6)</em><br>text size *</p>
+<p><code>lineHeight</code> <em>enum(0,1,2,3,4,5,6)</em><br>text lineheight *<br><em>defaultValue: <code>1</code></em></p>
+<p><code>color</code> <em>string</em><br>text colour *<br><em>defaultValue: <code>&#39;default&#39;</code></em></p>
+<p><code>textAlign</code> <em>string</em><br>text alignment *</p>
+<p><code>bold</code> <em>bool</em><br>bold font weight *</p>
+<p><code>thin</code> <em>bool</em><br>thin font weight *</p>
+<p><code>thick</code> <em>bool</em><br>thick font weight *</p>
+<p><code>inverted</code> <em>bool</em><br>use the inverted color (by default, white) *</p>
+<p><code>m</code> <em>enum(0,1,2,3,4)</em><br>Margin *</p>
+<p><code>mt</code> <em>enum(0,1,2,3,4)</em><br>Margin top *</p>
+<p><code>mr</code> <em>enum(0,1,2,3,4)</em><br>Margin right *</p>
+<p><code>mb</code> <em>enum(0,1,2,3,4)</em><br>Margin bottom *</p>
+<p><code>ml</code> <em>enum(0,1,2,3,4)</em><br>Margin left *</p>
+<p><code>mx</code> <em>enum(0,1,2,3,4)</em><br>Margin x-axis *</p>
+<p><code>my</code> <em>enum(0,1,2,3,4)</em><br>Margin y-asix *</p>
+<p><code>p</code> <em>enum(0,1,2,3,4)</em><br>Padding *</p>
+<p><code>pt</code> <em>enum(0,1,2,3,4)</em><br>Padding top *</p>
+<p><code>pr</code> <em>enum(0,1,2,3,4)</em><br>Padding right *</p>
+<p><code>pb</code> <em>enum(0,1,2,3,4)</em><br>Padding bottom *</p>
+<p><code>pl</code> <em>enum(0,1,2,3,4)</em><br>Padding left *</p>
+<p><code>px</code> <em>enum(0,1,2,3,4)</em><br>Padding x-axis *</p>
+<p><code>py</code> <em>enum(0,1,2,3,4)</em><br>Padding y-axis *</p>
+<p><code>backgroundColor</code> <em>string</em><br>Background color *</p>
+<p><code>rounded</code> <em>union(bool,number)</em><br>Border radius *</p>
+<p><code>borderColor</code> <em>string</em><br>Border color *</p>
+<p><code>flex</code> <em>number</em><br>flex property *</p>
+<p><code>wrap</code> <em>bool</em><br>flex-wrap property *</p>
+<p><code>column</code> <em>bool</em><br>set flex-direction to column *</p>
+<p><code>row</code> <em>bool</em><br>set flex-direction to row *</p>
+<p><code>align</code> <em>string</em><br>set align-items property *</p>
+<p><code>justify</code> <em>string</em><br>set justify-content property *</p>
+<p><code>height</code> <em>number</em><br>set the height of the element *</p>
+<p><code>width</code> <em>number</em><br>set the width of the element *</p>
+</blockquote>
+
+    </div>
+  </div>
+
+  <div class="pagination">
+    <div class="content-wrapper">
+      
+      
+        <a class="link primary prev"
+          href="../components.html">
+          <span class="icon-arrow-left-alt"></span>
+          <span class="subtitle-pagination">Previous</span>
+          Component API
+        </a>
+      
+      
+        <a class="link primary next"
+          href="Buttons.html">
+          <span class="subtitle-pagination">Next</span>
+          Buttons
+          <span class="icon-arrow-right-alt"></span>
+        </a>
+      
+    </div>
+  </div>
+
+  <div class="github">
+    <a class="link tertiary " href="https://github.com/panza-org/panza-docs/tree/master/source/components/Base.md" target="_blank">
+      <span class="icon-github"></span>Edit on GitHub</a>
+  </div>
+
+  
+</div>
+
+    <script src="/script/smooth-scroll.min.js"></script>
+    <script src="/script/main.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+    <script>
+      // nectar ninja
+      (function(){
+        var handle = '@meteorjs';
+        var a = document.createElement('script');
+        var m = document.getElementsByTagName('script')[0];
+        a.async = 1;
+        a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+        m.parentNode.insertBefore(a, m);
+      })();
+
+     
+      
+
+      // search box
+      
+
+      
+    </script>
+  </body>
+</html>
